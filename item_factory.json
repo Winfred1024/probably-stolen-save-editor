@@ -1,0 +1,7035 @@
+[
+ {
+  "identifier": "skincare_cream",
+  "atlas": "Items/items_amenities",
+  "factory": "AmenitiesItemDirectory.SkincareCream",
+  "types": [
+   "LUXURY_ITEM"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": 500,
+  "durability": null,
+  "helpers": [
+   "InitGlass"
+  ]
+ },
+ {
+  "identifier": "box_tampon",
+  "atlas": "Items/items_amenities",
+  "factory": "AmenitiesItemDirectory.BoxTampon",
+  "types": [
+   "HOUSEHOLD_GOOD",
+   "LUXURY_ITEM"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitCartonBox"
+  ]
+ },
+ {
+  "identifier": "pack_condom",
+  "atlas": "Items/items_amenities",
+  "factory": "AmenitiesItemDirectory.PackCondom",
+  "types": [
+   "HOUSEHOLD_GOOD"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "cig_red",
+  "atlas": "Items/items_amenities",
+  "factory": "AmenitiesItemDirectory.PacketCigaretteRed",
+  "types": [
+   "SUBSTANCE"
+  ],
+  "tags": [
+   "CIGARETTE_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitInspectableItem",
+   "InitNicotine"
+  ]
+ },
+ {
+  "identifier": "shampoo",
+  "atlas": "Items/items_amenities",
+  "factory": "AmenitiesItemDirectory.Shampoo",
+  "types": [
+   "HOUSEHOLD_GOOD"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": 30,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "toothpaste",
+  "atlas": "Items/items_amenities",
+  "factory": "AmenitiesItemDirectory.Toothpaste",
+  "types": [
+   "HOUSEHOLD_GOOD"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": 15,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "paper_towel",
+  "atlas": "Items/items_amenities",
+  "factory": "AmenitiesItemDirectory.PaperTowel",
+  "types": [
+   "HOUSEHOLD_GOOD"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": 35,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "toilet_paper",
+  "atlas": "Items/items_amenities",
+  "factory": "AmenitiesItemDirectory.ToiletPaper",
+  "types": [
+   "HOUSEHOLD_GOOD"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": 25,
+  "durability": null,
+  "helpers": [
+   "InitTextile"
+  ]
+ },
+ {
+  "identifier": "water_test_container",
+  "atlas": "Items/items_amenities",
+  "factory": "AmenitiesItemDirectory.WaterTestKit",
+  "types": [
+   "HOUSEHOLD_GOOD",
+   "WATER_PURIFICATION_SUPPLY"
+  ],
+  "tags": [
+   "PRE_CONTAINER_TAG",
+   "CONTAINER_TOOLTIP_TAG"
+  ],
+  "tagValues": {},
+  "value": 1,
+  "durability": null,
+  "helpers": [
+   "InitPlasticVial",
+   "InitPlasticContainer"
+  ]
+ },
+ {
+  "identifier": "strip_new",
+  "atlas": "Items/items_amenities",
+  "factory": "AmenitiesItemDirectory.WaterTestStrip",
+  "types": [
+   "HOUSEHOLD_GOOD",
+   "WATER_PURIFICATION_SUPPLY"
+  ],
+  "tags": [
+   "WATER_TESTING_STRIP_TAG",
+   "CAN_USE_ON_NON_OWNED_TAG"
+  ],
+  "tagValues": {},
+  "value": 3,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "uv",
+  "atlas": "Items/items_amenities",
+  "factory": "AmenitiesItemDirectory.UVFilter",
+  "types": [
+   "WATER_PURIFICATION_SUPPLY"
+  ],
+  "tags": [
+   "WATER_FILTER"
+  ],
+  "tagValues": {},
+  "value": 150,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "aquascan",
+  "atlas": "Items/items_amenities",
+  "factory": "AmenitiesItemDirectory.AquaScan",
+  "types": [
+   "HOUSEHOLD_GOOD",
+   "WATER_PURIFICATION_SUPPLY"
+  ],
+  "tags": [
+   "CAN_USE_ON_NON_OWNED_TAG"
+  ],
+  "tagValues": {},
+  "value": 200,
+  "durability": null,
+  "helpers": [
+   "InitScanner"
+  ]
+ },
+ {
+  "identifier": "metal_scanner",
+  "atlas": "Items/items_amenities",
+  "factory": "AmenitiesItemDirectory.MetalScanner",
+  "types": [
+   "TOOL"
+  ],
+  "tags": [
+   "IMPORTANT_TAG"
+  ],
+  "tagValues": {},
+  "value": 250,
+  "durability": null,
+  "helpers": [
+   "InitScavScanner",
+   "InitSmallMachine"
+  ]
+ },
+ {
+  "identifier": "genetic_scanner",
+  "atlas": "Items/items_amenities",
+  "factory": "AmenitiesItemDirectory.GeneScanner",
+  "types": [
+   "TOOL"
+  ],
+  "tags": [
+   "IMPORTANT_TAG"
+  ],
+  "tagValues": {},
+  "value": 500,
+  "durability": null,
+  "helpers": [
+   "InitSmallMachine"
+  ]
+ },
+ {
+  "identifier": "water_tablet_container",
+  "atlas": "Items/items_amenities",
+  "factory": "AmenitiesItemDirectory.WaterPurificationTabletContainer",
+  "types": [
+   "HOUSEHOLD_GOOD",
+   "WATER_PURIFICATION_SUPPLY"
+  ],
+  "tags": [
+   "PRE_CONTAINER_TAG",
+   "CONTAINER_TOOLTIP_TAG"
+  ],
+  "tagValues": {},
+  "value": 1,
+  "durability": null,
+  "helpers": [
+   "InitPlasticVial",
+   "InitPlasticContainer"
+  ]
+ },
+ {
+  "identifier": "water_tablet",
+  "atlas": "Items/items_amenities",
+  "factory": "AmenitiesItemDirectory.WaterPurificationTablet",
+  "types": [
+   "HOUSEHOLD_GOOD",
+   "WATER_PURIFICATION_SUPPLY"
+  ],
+  "tags": [
+   "WATER_PURIFICATION_TABLET"
+  ],
+  "tagValues": {},
+  "value": 6,
+  "durability": null,
+  "helpers": [
+   "InitTinyItem",
+   "InitChemItem"
+  ]
+ },
+ {
+  "identifier": "nutrient_tablet",
+  "atlas": "Items/items_hydroponic_plant",
+  "factory": "AmenitiesItemDirectory.HydroponicNutrientTablet",
+  "types": [
+   "FARMING_SUPPLIES"
+  ],
+  "tags": [
+   "NUTRIENT_TABLET"
+  ],
+  "tagValues": {},
+  "value": 5,
+  "durability": null,
+  "helpers": [
+   "InitTinyItem",
+   "InitChemItem"
+  ]
+ },
+ {
+  "identifier": "nutrient_tablet_container",
+  "atlas": "Items/items_hydroponic_plant",
+  "factory": "AmenitiesItemDirectory.NutrientTabletContainer",
+  "types": [
+   "FARMING_SUPPLIES"
+  ],
+  "tags": [
+   "PRE_CONTAINER_TAG",
+   "CONTAINER_TOOLTIP_TAG"
+  ],
+  "tagValues": {},
+  "value": 1,
+  "durability": null,
+  "helpers": [
+   "InitPlasticVial",
+   "InitPlasticContainer"
+  ]
+ },
+ {
+  "identifier": "kotton_fabric",
+  "atlas": "Items/items_armor",
+  "factory": "AmenitiesItemDirectory.KottonFabric",
+  "types": [
+   "MATERIAL",
+   "FILTER"
+  ],
+  "tags": [
+   "WATER_FILTER"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": 1000,
+  "helpers": [
+   "InitTextile"
+  ]
+ },
+ {
+  "identifier": "water_filter",
+  "atlas": "Items/items_amenities",
+  "factory": "AmenitiesItemDirectory.WaterFilter",
+  "types": [
+   "HOUSEHOLD_GOOD",
+   "FILTER",
+   "WATER_PURIFICATION_SUPPLY"
+  ],
+  "tags": [
+   "WATER_FILTER"
+  ],
+  "tagValues": {},
+  "value": 25,
+  "durability": null,
+  "helpers": [
+   "InitItemWithDurabilityPricingMode2",
+   "InitPlasticContainer"
+  ]
+ },
+ {
+  "identifier": "water_filter_adv",
+  "atlas": "Items/items_amenities",
+  "factory": "AmenitiesItemDirectory.WaterFilterAdvanced",
+  "types": [
+   "HOUSEHOLD_GOOD",
+   "FILTER",
+   "WATER_PURIFICATION_SUPPLY",
+   "LUXURY_ITEM"
+  ],
+  "tags": [
+   "WATER_FILTER"
+  ],
+  "tagValues": {},
+  "value": 350,
+  "durability": 400,
+  "helpers": [
+   "InitPlasticContainer"
+  ]
+ },
+ {
+  "identifier": "portable_water_purifier",
+  "atlas": "Items/items_amenities",
+  "factory": "AmenitiesItemDirectory.PortableWaterPurifier",
+  "types": [
+   "HOUSEHOLD_GOOD",
+   "WATER_PURIFICATION_SUPPLY",
+   "LUXURY_ITEM"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": 325,
+  "durability": null,
+  "helpers": [
+   "InitItemWithDurabilityPricingMode2",
+   "InitPlasticContainer"
+  ]
+ },
+ {
+  "identifier": "hydroreed_filter",
+  "atlas": "Items/items_hydroponic_plant",
+  "factory": "AmenitiesItemDirectory.HydroreedFilter",
+  "types": [
+   "HOUSEHOLD_GOOD",
+   "FILTER",
+   "WATER_PURIFICATION_SUPPLY"
+  ],
+  "tags": [
+   "WATER_FILTER"
+  ],
+  "tagValues": {},
+  "value": 20,
+  "durability": 200,
+  "helpers": []
+ },
+ {
+  "identifier": "pitcher",
+  "atlas": "Items/water_container4",
+  "factory": "AmenitiesItemDirectory.WaterPitcher",
+  "types": [
+   "HOUSEHOLD_GOOD"
+  ],
+  "tags": [
+   "CONTAINER_TOOLTIP_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitLiquidContainerItem",
+   "InitWaterFilter"
+  ]
+ },
+ {
+  "identifier": "lottery",
+  "atlas": "Items/items_amenities",
+  "factory": "AmenitiesItemDirectory.LotteryTicket",
+  "types": [],
+  "tags": [
+   "REPO_ELIGIBLE_OVERRIDE_TAG"
+  ],
+  "tagValues": {},
+  "value": 25,
+  "durability": null,
+  "helpers": [
+   "InitLotteryTicket",
+   "InitPaperSheet"
+  ]
+ },
+ {
+  "identifier": "lottery_old",
+  "atlas": "Items/items_amenities",
+  "factory": "AmenitiesItemDirectory.LotteryTicketOld",
+  "types": [],
+  "tags": [
+   "REPO_ELIGIBLE_OVERRIDE_TAG"
+  ],
+  "tagValues": {},
+  "value": 1,
+  "durability": null,
+  "helpers": [
+   "InitPaperSheet"
+  ]
+ },
+ {
+  "identifier": "perfume1",
+  "atlas": "Items/items_amenities",
+  "factory": "AmenitiesItemDirectory.NeuroactivePerfume",
+  "types": [
+   "LUXURY_ITEM"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": 150,
+  "durability": null,
+  "helpers": [
+   "InitGlass",
+   "InitUseCountItem"
+  ]
+ },
+ {
+  "identifier": "eleanor_perfume",
+  "atlas": "Items/items_misc",
+  "factory": "AmenitiesItemDirectory.SelfRefillingNeuroactivePerfume",
+  "types": [
+   "LUXURY_ITEM"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": 1000,
+  "durability": null,
+  "helpers": [
+   "InitGlass",
+   "InitUseCountItem",
+   "InitAutoRefill"
+  ]
+ },
+ {
+  "identifier": "perfume2",
+  "atlas": "Items/items_amenities",
+  "factory": "AmenitiesItemDirectory.PheromonePerfume",
+  "types": [
+   "LUXURY_ITEM"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": 200,
+  "durability": null,
+  "helpers": [
+   "InitContrabandItem",
+   "InitGlass",
+   "InitUseCountItem"
+  ]
+ },
+ {
+  "identifier": "armor_lining",
+  "atlas": "Items/items_armor",
+  "factory": "ArmorItemDirectory.ArmorLining",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitArmorItem",
+   "InitArmour"
+  ]
+ },
+ {
+  "identifier": "nuts_metal_pile",
+  "atlas": "Items/items_construction",
+  "factory": "ConstructionItemDirectory.Nuts",
+  "types": [
+   "MATERIAL"
+  ],
+  "tags": [
+   "MATERIAL"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitTinyMetal"
+  ]
+ },
+ {
+  "identifier": "eleanor_box",
+  "atlas": "Items/items_container",
+  "factory": "ContainerItemDirectory.LuxurySupplyCrate",
+  "types": [
+   "LUXURY_ITEM",
+   "HOUSEHOLD_GOOD"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitStolenItem"
+  ]
+ },
+ {
+  "identifier": "simple_backpack",
+  "atlas": "Items/items_backpack2",
+  "factory": "ContainerItemDirectory.BackpackSmall",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitBackpack",
+   "InitBackpackItem"
+  ]
+ },
+ {
+  "identifier": "simple_backpack_medium",
+  "atlas": "Items/items_backpack2",
+  "factory": "ContainerItemDirectory.BackpackMedium",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitBackpack",
+   "InitBackpackItem"
+  ]
+ },
+ {
+  "identifier": "simple_backpack_medium_military",
+  "atlas": "Items/items_backpack2",
+  "factory": "ContainerItemDirectory.BackpackMediumMilitary",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitBackpack",
+   "InitArmorItem",
+   "InitBackpackItem"
+  ]
+ },
+ {
+  "identifier": "simple_backpack_large",
+  "atlas": "Items/items_backpack2",
+  "factory": "ContainerItemDirectory.BackpackLarge",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitBackpack",
+   "InitBackpackItem"
+  ]
+ },
+ {
+  "identifier": "simple_backpack_large_military",
+  "atlas": "Items/items_backpack2",
+  "factory": "ContainerItemDirectory.BackpackLargeMilitary",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitBackpack",
+   "InitArmorItem",
+   "InitBackpackItem"
+  ]
+ },
+ {
+  "identifier": "fanny_pack",
+  "atlas": "Items/items_backpack2",
+  "factory": "ContainerItemDirectory.FannyPack",
+  "types": [],
+  "tags": [
+   "backpack",
+   "equippable"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitBackpack",
+   "InitBackpackItem"
+  ]
+ },
+ {
+  "identifier": "satchel",
+  "atlas": "Items/items_backpack2",
+  "factory": "ContainerItemDirectory.Satchel",
+  "types": [],
+  "tags": [
+   "backpack",
+   "equippable"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitBackpack",
+   "InitBackpackItem"
+  ]
+ },
+ {
+  "identifier": "junor_backpack1",
+  "atlas": "Items/items_backpack2",
+  "factory": "ContainerItemDirectory.KidsBackpack",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitBackpack",
+   "InitBackpackItem"
+  ]
+ },
+ {
+  "identifier": "junor_backpack2",
+  "atlas": "Items/items_backpack2",
+  "factory": "ContainerItemDirectory.KidsBackpackLarge",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitBackpack",
+   "InitBackpackItem"
+  ]
+ },
+ {
+  "identifier": "nutrifruit_seed_packet",
+  "atlas": "Items/items_hydroponic_plant",
+  "factory": "ContainerItemDirectory.NutrifruitSeedPacket",
+  "types": [
+   "SEED"
+  ],
+  "tags": [
+   "STORABLE_PACKAGE_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitContainerItem"
+  ]
+ },
+ {
+  "identifier": "sec_box",
+  "atlas": "Items/items_container",
+  "factory": "ContainerItemDirectory.SecLootBox",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitContrabandItem",
+   "InitLockedContainerItem"
+  ]
+ },
+ {
+  "identifier": "eng_box",
+  "atlas": "Items/items_container",
+  "factory": "ContainerItemDirectory.EngLootBox",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitLockedContainerItem"
+  ]
+ },
+ {
+  "identifier": "med_box",
+  "atlas": "Items/items_container",
+  "factory": "ContainerItemDirectory.MedLootBox",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitLockedContainerItem"
+  ]
+ },
+ {
+  "identifier": "evidence_box",
+  "atlas": "Items/items_container",
+  "factory": "ContainerItemDirectory.EvidenceLootBox",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitContrabandItem",
+   "InitLockedContainerItem"
+  ]
+ },
+ {
+  "identifier": "service_box",
+  "atlas": "Items/items_container",
+  "factory": "ContainerItemDirectory.ServiceLootBox",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitLockedContainerItem"
+  ]
+ },
+ {
+  "identifier": "beer_case_0",
+  "atlas": "Items/beer_case",
+  "factory": "ContainerItemDirectory.BeerCase",
+  "types": [
+   "SUBSTANCE",
+   "ALCOHOL",
+   "BREVAGE"
+  ],
+  "tags": [
+   "PRE_CONTAINER_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "expedition_box",
+  "atlas": "Items/items_container",
+  "factory": "EquipmentDirectory.ExpeditionBox",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "small_smoke",
+  "atlas": "Items/itematlas",
+  "factory": "ExplosiveItemDirectory.SmokeGrenade",
+  "types": [
+   "WEAPON",
+   "MUNITION"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitGrenade",
+   "InitContrabandItem"
+  ]
+ },
+ {
+  "identifier": "c4",
+  "atlas": "Items/itematlas",
+  "factory": "ExplosiveItemDirectory.C4",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "small_flash",
+  "atlas": "Items/itematlas",
+  "factory": "ExplosiveItemDirectory.Flashbang",
+  "types": [
+   "WEAPON",
+   "MUNITION"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitContrabandItem",
+   "InitGrenade"
+  ]
+ },
+ {
+  "identifier": "beis_icecream",
+  "atlas": "Items/items_food",
+  "factory": "FoodItemDirectory.BeisIcecream",
+  "types": [
+   "FOOD",
+   "TREAT"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitCartonBox",
+   "InitFoodItem"
+  ]
+ },
+ {
+  "identifier": "items_food_pilk_alt",
+  "atlas": "Items/items_food",
+  "factory": "FoodItemDirectory.ProcessedMilk",
+  "types": [
+   "PROCESSED_FOOD",
+   "BREVAGE",
+   "FOOD"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitCartonBox",
+   "InitFoodItem"
+  ]
+ },
+ {
+  "identifier": "items_food_juice",
+  "atlas": "Items/items_food",
+  "factory": "FoodItemDirectory.ProcessedJuice",
+  "types": [
+   "PROCESSED_FOOD",
+   "BREVAGE",
+   "FOOD"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitCartonBox",
+   "InitFoodItem"
+  ]
+ },
+ {
+  "identifier": "processed_meat",
+  "atlas": "Items/items_food",
+  "factory": "FoodItemDirectory.ProcessedMeat",
+  "types": [
+   "FOOD",
+   "PROCESSED_FOOD"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitCannedFood",
+   "InitFoodItem"
+  ]
+ },
+ {
+  "identifier": "hot_sauce",
+  "atlas": "Items/items_food",
+  "factory": "FoodItemDirectory.BottleHotSauce",
+  "types": [
+   "FOOD"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitGlass"
+  ]
+ },
+ {
+  "identifier": "water_bottle_full_premium",
+  "atlas": "Items/items_food",
+  "factory": "FoodItemDirectory.BottledWaterPremium",
+  "types": [
+   "LUXURY_ITEM",
+   "WATER"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPlasticBottle"
+  ]
+ },
+ {
+  "identifier": "red_beer",
+  "atlas": "Items/items_food",
+  "factory": "FoodItemDirectory.RedBeer",
+  "types": [
+   "SUBSTANCE",
+   "ALCOHOL",
+   "BREVAGE"
+  ],
+  "tags": [
+   "RED_IMP_BEER_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitAlcohol",
+   "InitGlass"
+  ]
+ },
+ {
+  "identifier": "empty_beer_bottle",
+  "atlas": "Items/items_food",
+  "factory": "FoodItemDirectory.EmptyBeerBottle",
+  "types": [
+   "JUNK"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitGlass"
+  ]
+ },
+ {
+  "identifier": "normal",
+  "atlas": "Items/water_container3",
+  "factory": "FoodItemDirectory.BottledWater",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitLiquidContainerItem",
+   "InitPlasticBottle"
+  ]
+ },
+ {
+  "identifier": "small",
+  "atlas": "Items/water_container3",
+  "factory": "FoodItemDirectory.SmallBottledWater",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitLiquidContainerItem",
+   "InitPlasticBottle"
+  ]
+ },
+ {
+  "identifier": "mini",
+  "atlas": "Items/water_container3",
+  "factory": "FoodItemDirectory.MiniBottle",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitLiquidContainerItem",
+   "InitPlasticBottle"
+  ]
+ },
+ {
+  "identifier": "med_bottle_red",
+  "atlas": "Items/items_medical",
+  "factory": "FoodItemDirectory.MedBottleRed",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitLiquidContainerItem",
+   "InitPlasticBottle"
+  ]
+ },
+ {
+  "identifier": "med_bottle_blue",
+  "atlas": "Items/items_medical",
+  "factory": "FoodItemDirectory.MedBottleBlue",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitLiquidContainerItem",
+   "InitPlasticBottle"
+  ]
+ },
+ {
+  "identifier": "med_bottle_violet",
+  "atlas": "Items/items_medical",
+  "factory": "FoodItemDirectory.MedBottleViolet",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitLiquidContainerItem",
+   "InitPlasticBottle"
+  ]
+ },
+ {
+  "identifier": "med_bottle_orange",
+  "atlas": "Items/items_medical",
+  "factory": "FoodItemDirectory.MedBottleOrange",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitLiquidContainerItem",
+   "InitPlasticBottle"
+  ]
+ },
+ {
+  "identifier": "med_bottle_small_pink",
+  "atlas": "Items/items_medical",
+  "factory": "FoodItemDirectory.MedBottleSmallPink",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitLiquidContainerItem",
+   "InitPlasticBottle"
+  ]
+ },
+ {
+  "identifier": "1ml",
+  "atlas": "Items/water_container3",
+  "factory": "FoodItemDirectory.Dropper1ml",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitLiquidContainerItem",
+   "InitPlasticBottle"
+  ]
+ },
+ {
+  "identifier": "5ml",
+  "atlas": "Items/water_container3",
+  "factory": "FoodItemDirectory.Dropper5ml",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitLiquidContainerItem",
+   "InitPlasticBottle"
+  ]
+ },
+ {
+  "identifier": "25ml",
+  "atlas": "Items/water_container3",
+  "factory": "FoodItemDirectory.Cylinder25ml",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitLiquidContainerItem",
+   "InitPlasticBottle"
+  ]
+ },
+ {
+  "identifier": "50ml",
+  "atlas": "Items/water_container3",
+  "factory": "FoodItemDirectory.Cylinder50ml",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitLiquidContainerItem",
+   "InitPlasticBottle"
+  ]
+ },
+ {
+  "identifier": "100ml",
+  "atlas": "Items/water_container3",
+  "factory": "FoodItemDirectory.Cylinder100ml",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitLiquidContainerItem",
+   "InitPlasticBottle"
+  ]
+ },
+ {
+  "identifier": "large",
+  "atlas": "Items/water_container3",
+  "factory": "FoodItemDirectory.LargeBottledWater",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitLiquidContainerItem",
+   "InitPlasticBottle"
+  ]
+ },
+ {
+  "identifier": "xl",
+  "atlas": "Items/water_container4",
+  "factory": "FoodItemDirectory.WaterJug",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": 15,
+  "durability": null,
+  "helpers": [
+   "InitLiquidContainerItem",
+   "InitPlasticBottle"
+  ]
+ },
+ {
+  "identifier": "items_food_soda_red",
+  "atlas": "Items/items_food",
+  "factory": "FoodItemDirectory.SodaRed",
+  "types": [
+   "TREAT",
+   "BREVAGE"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitAluminumCan"
+  ]
+ },
+ {
+  "identifier": "energy_drink",
+  "atlas": "Items/items_food",
+  "factory": "FoodItemDirectory.EnergyDrink",
+  "types": [
+   "TREAT",
+   "BREVAGE"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitAluminumCan"
+  ]
+ },
+ {
+  "identifier": "nudka",
+  "atlas": "Items/items_food",
+  "factory": "FoodItemDirectory.Nudka",
+  "types": [
+   "ALCOHOL",
+   "SUBSTANCE"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitAlcohol",
+   "InitGlass"
+  ]
+ },
+ {
+  "identifier": "juice_pouch",
+  "atlas": "Items/items_food",
+  "factory": "FoodItemDirectory.GalaxyBlend",
+  "types": [
+   "PROCESSED_FOOD"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitFoodItem",
+   "InitSoftPlasticItem"
+  ]
+ },
+ {
+  "identifier": "cat_bar",
+  "atlas": "Items/items_food",
+  "factory": "FoodItemDirectory.CatBar",
+  "types": [
+   "TREAT",
+   "FOOD"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitFoodItem",
+   "InitSoftPlasticItem"
+  ]
+ },
+ {
+  "identifier": "li_eat_snackbar",
+  "atlas": "Items/items_food",
+  "factory": "FoodItemDirectory.LiEatSnackbar",
+  "types": [
+   "TREAT",
+   "FOOD"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitEdibleAudio",
+   "InitFoodItem",
+   "InitSoftPlasticItem"
+  ]
+ },
+ {
+  "identifier": "cheese",
+  "atlas": "Items/items_food",
+  "factory": "FoodItemDirectory.ProcessedCheese",
+  "types": [
+   "FOOD",
+   "PROCESSED_FOOD"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitFoodItem",
+   "InitEdibleAudio"
+  ]
+ },
+ {
+  "identifier": "raw_meat",
+  "atlas": "Items/items_food",
+  "factory": "FoodItemDirectory.RawMeat",
+  "types": [
+   "FOOD",
+   "LUXURY_ITEM"
+  ],
+  "tags": [
+   "BIO_PRINTABLE_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitFoodAudio",
+   "InitFoodItem"
+  ]
+ },
+ {
+  "identifier": "small_raw_meat",
+  "atlas": "Items/items_food",
+  "factory": "FoodItemDirectory.SmallRawMeat",
+  "types": [
+   "FOOD"
+  ],
+  "tags": [
+   "BIO_PRINTABLE_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitFoodAudio",
+   "InitFoodItem"
+  ]
+ },
+ {
+  "identifier": "morsel",
+  "atlas": "Items/items_food",
+  "factory": "FoodItemDirectory.Morsel",
+  "types": [
+   "FOOD"
+  ],
+  "tags": [
+   "BIO_PRINTABLE_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitFoodAudio",
+   "InitFoodItem"
+  ]
+ },
+ {
+  "identifier": "morsel_small",
+  "atlas": "Items/items_food",
+  "factory": "FoodItemDirectory.SmallMorsel",
+  "types": [
+   "FOOD"
+  ],
+  "tags": [
+   "BIO_PRINTABLE_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitFoodAudio",
+   "InitFoodItem"
+  ]
+ },
+ {
+  "identifier": "fat_meat",
+  "atlas": "Items/items_food",
+  "factory": "FoodItemDirectory.FatMeat",
+  "types": [
+   "FOOD"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitFoodAudio",
+   "InitFoodItem"
+  ]
+ },
+ {
+  "identifier": "meat_scrap",
+  "atlas": "Items/items_food",
+  "factory": "FoodItemDirectory.MeatScrap",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitFoodItem"
+  ]
+ },
+ {
+  "identifier": "cup_noodle",
+  "atlas": "Items/items_food",
+  "factory": "FoodItemDirectory.CupNoodle",
+  "types": [
+   "FOOD"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitFoodAudio",
+   "InitFoodItem"
+  ]
+ },
+ {
+  "identifier": "water_ration",
+  "atlas": "Items/items_food",
+  "factory": "FoodItemDirectory.WaterRation",
+  "types": [
+   "WATER_RATION"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitSoftPlasticItem"
+  ]
+ },
+ {
+  "identifier": "water_ration_small",
+  "atlas": "Items/items_food",
+  "factory": "FoodItemDirectory.WaterRationSmall",
+  "types": [
+   "WATER_RATION"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitSoftPlasticItem"
+  ]
+ },
+ {
+  "identifier": "core",
+  "atlas": "Items/items_module",
+  "factory": "FurnitureItemDirectory.CreateTestGizmo",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "powerblock",
+  "atlas": "Items/items_tool",
+  "factory": "FurnitureItemDirectory.CreatePowerBlock",
+  "types": [
+   "MACHINE"
+  ],
+  "tags": [
+   "IMPORTANT_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitSmallMachine"
+  ]
+ },
+ {
+  "identifier": "special_mod",
+  "atlas": "Items/items_mod",
+  "factory": "GunModDirectory.CreateInternalSprings",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitGunModSpecial",
+   "InitGunMod",
+   "InitGunModBaseStats"
+  ]
+ },
+ {
+  "identifier": "special_mod1",
+  "atlas": "Items/items_mod",
+  "factory": "GunModDirectory.CreateInternalSpringsImproved",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitGunModSpecial",
+   "InitGunMod",
+   "InitGunModBaseStats"
+  ]
+ },
+ {
+  "identifier": "rds_item",
+  "atlas": "Items/items_mod",
+  "factory": "GunModDirectory.CreateRDS",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitGunModRail",
+   "InitGunMod",
+   "InitGunModBaseStats"
+  ]
+ },
+ {
+  "identifier": "rds_makeshift_item",
+  "atlas": "Items/items_mod",
+  "factory": "GunModDirectory.CreateRDSMakeshift",
+  "types": [
+   "MAKESHIFT"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitGunModRail",
+   "InitGunMod",
+   "InitGunModBaseStats"
+  ]
+ },
+ {
+  "identifier": "silencer_item",
+  "atlas": "Items/items_mod",
+  "factory": "GunModDirectory.CreateSilencer",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitGunModBarrel",
+   "InitGunMod",
+   "InitGunModBaseStats"
+  ]
+ },
+ {
+  "identifier": "silencer2_item",
+  "atlas": "Items/items_mod",
+  "factory": "GunModDirectory.CreateSilencerAdv",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitGunModBarrel",
+   "InitGunMod",
+   "InitGunModBaseStats"
+  ]
+ },
+ {
+  "identifier": "bottle_item",
+  "atlas": "Items/items_mod",
+  "factory": "GunModDirectory.CreateSilencerMakeshift",
+  "types": [
+   "MAKESHIFT"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitGunModBarrel",
+   "InitGunMod",
+   "InitGunModBaseStats"
+  ]
+ },
+ {
+  "identifier": "barrel_item",
+  "atlas": "Items/items_mod",
+  "factory": "GunModDirectory.CreateBarrel",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitGunModBarrel",
+   "InitGunMod",
+   "InitGunModBaseStats"
+  ]
+ },
+ {
+  "identifier": "compensator_item",
+  "atlas": "Items/items_mod",
+  "factory": "GunModDirectory.CreateCompensator",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitGunModBarrel",
+   "InitGunMod",
+   "InitGunModBaseStats"
+  ]
+ },
+ {
+  "identifier": "laser_item",
+  "atlas": "Items/items_mod",
+  "factory": "GunModDirectory.CreateLaser",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitGunModUnderRail",
+   "InitGunMod",
+   "InitGunModBaseStats"
+  ]
+ },
+ {
+  "identifier": "laser2_item",
+  "atlas": "Items/items_mod",
+  "factory": "GunModDirectory.CreateLaser2",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitGunModUnderRail",
+   "InitGunMod",
+   "InitGunModBaseStats"
+  ]
+ },
+ {
+  "identifier": "laser_toy_item",
+  "atlas": "Items/items_mod",
+  "factory": "GunModDirectory.CreateLaserToy",
+  "types": [
+   "MAKESHIFT"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitGunModUnderRail",
+   "InitGunMod",
+   "InitGunModBaseStats"
+  ]
+ },
+ {
+  "identifier": "bipod_item",
+  "atlas": "Items/items_mod",
+  "factory": "GunModDirectory.CreateBipod",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitGunModUnderRail",
+   "InitGunMod",
+   "InitGunModBaseStats"
+  ]
+ },
+ {
+  "identifier": "gl_item",
+  "atlas": "Items/items_mod",
+  "factory": "GunModDirectory.CreateGL",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitGunModUnderRail",
+   "InitGunMod",
+   "InitGunModBaseStats"
+  ]
+ },
+ {
+  "identifier": "grip_item",
+  "atlas": "Items/items_mod",
+  "factory": "GunModDirectory.CreateGrip",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitGunModUnderRail",
+   "InitGunMod",
+   "InitGunModBaseStats"
+  ]
+ },
+ {
+  "identifier": "10mm_mag_item",
+  "atlas": "Items/items_mod",
+  "factory": "GunModDirectory.Create10MMMag",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitGunModMagazine",
+   "InitGunMod",
+   "InitGunModBaseStats"
+  ]
+ },
+ {
+  "identifier": "10mm_mag_high_item",
+  "atlas": "Items/items_mod",
+  "factory": "GunModDirectory.Create10MMMagHigh",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitGunModMagazine",
+   "InitGunMod",
+   "InitGunModBaseStats"
+  ]
+ },
+ {
+  "identifier": "10mm_mag_ext_item",
+  "atlas": "Items/items_mod",
+  "factory": "GunModDirectory.Create10MMMagExt",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitGunModMagazine",
+   "InitGunMod",
+   "InitGunModBaseStats"
+  ]
+ },
+ {
+  "identifier": "10mm_mag_smg_item",
+  "atlas": "Items/items_mod",
+  "factory": "GunModDirectory.Create10MMMagSMG",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitGunModMagazine",
+   "InitGunMod",
+   "InitGunModBaseStats"
+  ]
+ },
+ {
+  "identifier": "10mm_mag_smg_high_item",
+  "atlas": "Items/items_mod",
+  "factory": "GunModDirectory.Create10MMMagSMGHigh",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitGunModMagazine",
+   "InitGunMod",
+   "InitGunModBaseStats"
+  ]
+ },
+ {
+  "identifier": "10mm_mag_smg_box_item",
+  "atlas": "Items/items_mod",
+  "factory": "GunModDirectory.Create10MMMagSMGBox",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitGunModMagazine",
+   "InitGunMod",
+   "InitGunModBaseStats"
+  ]
+ },
+ {
+  "identifier": "22_mag_item",
+  "atlas": "Items/items_mod",
+  "factory": "GunModDirectory.Create22Mag",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitGunModMagazine",
+   "InitGunMod",
+   "InitGunModBaseStats"
+  ]
+ },
+ {
+  "identifier": "22_mag_high_item",
+  "atlas": "Items/items_mod",
+  "factory": "GunModDirectory.Create22MagHigh",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitGunModMagazine",
+   "InitGunMod",
+   "InitGunModBaseStats"
+  ]
+ },
+ {
+  "identifier": "22_mag_ext_item",
+  "atlas": "Items/items_mod",
+  "factory": "GunModDirectory.Create22MagExt",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitGunModMagazine",
+   "InitGunMod",
+   "InitGunModBaseStats"
+  ]
+ },
+ {
+  "identifier": "stock_item",
+  "atlas": "Items/items_mod",
+  "factory": "GunModDirectory.CreateStock",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitGunModStock",
+   "InitGunMod",
+   "InitGunModBaseStats"
+  ]
+ },
+ {
+  "identifier": "short_stock_item",
+  "atlas": "Items/items_mod",
+  "factory": "GunModDirectory.CreateShortStock",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitGunModStock",
+   "InitGunMod",
+   "InitGunModBaseStats"
+  ]
+ },
+ {
+  "identifier": "handmade_pistol_frame",
+  "atlas": "Items/items_weapons_ranged_energy",
+  "factory": "GunsItemDirectory.CreateHandmadePistolFrame",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": 70,
+  "durability": null,
+  "helpers": [
+   "InitFrame"
+  ]
+ },
+ {
+  "identifier": "heavy_handmade_pistol_frame",
+  "atlas": "Items/items_weapons_ranged_energy",
+  "factory": "GunsItemDirectory.CreateHeavyHandmadePistolFrame",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": 100,
+  "durability": null,
+  "helpers": [
+   "InitFrame"
+  ]
+ },
+ {
+  "identifier": "printed_gun",
+  "atlas": "Items/items_weapons_ranged_energy",
+  "factory": "GunsItemDirectory.PrintedGun",
+  "types": [
+   "WEAPON",
+   "FIREARM",
+   "MAKESHIFT"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": 40,
+  "durability": null,
+  "helpers": [
+   "InitContrabandItem",
+   "InitGun",
+   "InitPistol"
+  ]
+ },
+ {
+  "identifier": "handmade_pistol",
+  "atlas": "Items/items_weapons_ranged_energy",
+  "factory": "GunsItemDirectory.CreateHandmadePistol",
+  "types": [
+   "WEAPON",
+   "FIREARM",
+   "LOWTECH"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": 120,
+  "durability": null,
+  "helpers": [
+   "InitContrabandItem",
+   "InitPistol",
+   "InitGun"
+  ]
+ },
+ {
+  "identifier": "heavy_handmade_pistol",
+  "atlas": "Items/items_weapons_ranged_energy",
+  "factory": "GunsItemDirectory.CreateHeavyHandmadePistol",
+  "types": [
+   "WEAPON",
+   "FIREARM",
+   "LOWTECH"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": 160,
+  "durability": null,
+  "helpers": [
+   "InitGun",
+   "InitContrabandItem"
+  ]
+ },
+ {
+  "identifier": "glock_receiver",
+  "atlas": "Items/items_weapons_ranged_energy",
+  "factory": "GunsItemDirectory.CreateGlockReceiver",
+  "types": [
+   "WEAPON",
+   "FIREARM",
+   "MIDLINE"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitContrabandItem",
+   "InitGun"
+  ]
+ },
+ {
+  "identifier": "heavy_smg",
+  "atlas": "Items/items_weapons_ranged_antique",
+  "factory": "GunsItemDirectory.CreateSMG",
+  "types": [
+   "WEAPON",
+   "FIREARM",
+   "MIDLINE"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitContrabandItem",
+   "InitHeavyGun",
+   "InitGun"
+  ]
+ },
+ {
+  "identifier": "shotgun",
+  "atlas": "Items/items_weapons_ranged_antique",
+  "factory": "GunsItemDirectory.CreateShotgun",
+  "types": [
+   "WEAPON",
+   "FIREARM",
+   "MIDLINE"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": 310,
+  "durability": null,
+  "helpers": [
+   "InitContrabandItem",
+   "InitHeavyGun",
+   "InitGun",
+   "InitUMP"
+  ]
+ },
+ {
+  "identifier": "stun_gun",
+  "atlas": "Items/items_weapons_ranged_energy",
+  "factory": "GunsItemDirectory.CreateStunGun",
+  "types": [
+   "WEAPON",
+   "MIDLINE"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": 250,
+  "durability": null,
+  "helpers": [
+   "InitGun"
+  ]
+ },
+ {
+  "identifier": "revolver",
+  "atlas": "Items/items_weapons_ranged_energy",
+  "factory": "GunsItemDirectory.CreateRevolver",
+  "types": [
+   "WEAPON",
+   "FIREARM",
+   "MIDLINE"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": 240,
+  "durability": null,
+  "helpers": [
+   "InitGun",
+   "InitContrabandItem"
+  ]
+ },
+ {
+  "identifier": "light_pistol_ammo",
+  "atlas": "Items/items_sec",
+  "factory": "GunsItemDirectory.SmallPistolRound",
+  "types": [
+   "AMMUNITION"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": 20,
+  "durability": null,
+  "helpers": [
+   "InitContrabandItem"
+  ]
+ },
+ {
+  "identifier": "light_pistol_ammo_p",
+  "atlas": "Items/items_sec",
+  "factory": "GunsItemDirectory.SmallPistolRoundPenetration",
+  "types": [
+   "AMMUNITION"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": 26,
+  "durability": null,
+  "helpers": [
+   "InitContrabandItem"
+  ]
+ },
+ {
+  "identifier": "light_pistol_ammo_nl",
+  "atlas": "Items/items_sec",
+  "factory": "GunsItemDirectory.SmallPistolRoundNonLethal",
+  "types": [
+   "AMMUNITION"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": 14,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "heavy_pistol_ammo",
+  "atlas": "Items/items_sec",
+  "factory": "GunsItemDirectory.HeavyPistolRound",
+  "types": [
+   "AMMUNITION"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": 30,
+  "durability": null,
+  "helpers": [
+   "InitContrabandItem"
+  ]
+ },
+ {
+  "identifier": "heavy_pistol_ammo_p",
+  "atlas": "Items/items_sec",
+  "factory": "GunsItemDirectory.HeavyPistolRoundPenetration",
+  "types": [
+   "AMMUNITION"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": 36,
+  "durability": null,
+  "helpers": [
+   "InitContrabandItem"
+  ]
+ },
+ {
+  "identifier": "heavy_pistol_ammo_nl",
+  "atlas": "Items/items_sec",
+  "factory": "GunsItemDirectory.HeavyPistolRoundNonLethal",
+  "types": [
+   "AMMUNITION"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": 24,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "tazer",
+  "atlas": "Items/items_sec",
+  "factory": "GunsItemDirectory.Tazer",
+  "types": [
+   "WEAPON",
+   "MELEE_WEAPON"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": 100,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "vacuum_robot",
+  "atlas": "Items/items_husbandry",
+  "factory": "HusbandryDirectory.VacuumRobot",
+  "types": [],
+  "tags": [
+   "IMPORTANT_TAG",
+   "ALLOWED_IN_CAGE_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "feces_small",
+  "atlas": "Items/items_husbandry",
+  "factory": "HusbandryDirectory.FecesSmall",
+  "types": [],
+  "tags": [
+   "ANIMAL_FECES_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitChemItem"
+  ]
+ },
+ {
+  "identifier": "feces",
+  "atlas": "Items/items_husbandry",
+  "factory": "HusbandryDirectory.FecesMedium",
+  "types": [],
+  "tags": [
+   "ANIMAL_FECES_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitChemItem"
+  ]
+ },
+ {
+  "identifier": "feces_large",
+  "atlas": "Items/items_husbandry",
+  "factory": "HusbandryDirectory.FecesLarge",
+  "types": [],
+  "tags": [
+   "ANIMAL_FECES_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitChemItem"
+  ]
+ },
+ {
+  "identifier": "rat_s_m",
+  "atlas": "Items/items_husbandry",
+  "factory": "HusbandryDirectory.Rat",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitRatItem",
+   "InitRat"
+  ]
+ },
+ {
+  "identifier": "red_serum",
+  "atlas": "Items/items_medical",
+  "factory": "HusbandryDirectory.SerumRed",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitUseCountItem",
+   "InitPlasticContainer"
+  ]
+ },
+ {
+  "identifier": "green_serum",
+  "atlas": "Items/items_medical",
+  "factory": "HusbandryDirectory.SerumGreen",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitUseCountItem",
+   "InitPlasticContainer"
+  ]
+ },
+ {
+  "identifier": "nutrifruit",
+  "atlas": "Items/items_hydroponic_plant",
+  "factory": "HydroponicDirectory.Nutrifruit",
+  "types": [
+   "FOOD"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitProduce"
+  ]
+ },
+ {
+  "identifier": "kotton_plant",
+  "atlas": "Items/items_hydroponic_plant",
+  "factory": "HydroponicDirectory.KottonPlant",
+  "types": [
+   "MATERIAL"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitLeafy"
+  ]
+ },
+ {
+  "identifier": "nutrifruit_seed",
+  "atlas": "Items/items_hydroponic_plant",
+  "factory": "HydroponicDirectory.NutrifruitSeed",
+  "types": [
+   "SEED"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitSeedItem"
+  ]
+ },
+ {
+  "identifier": "kotton_plant_seed",
+  "atlas": "Items/items_hydroponic_plant",
+  "factory": "HydroponicDirectory.KottonSeed",
+  "types": [
+   "SEED"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitSeedItem"
+  ]
+ },
+ {
+  "identifier": "dream_cap_seed",
+  "atlas": "Items/items_hydroponic_plant",
+  "factory": "HydroponicDirectory.DreamCapSeed",
+  "types": [
+   "SEED"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitSeedItem",
+   "InitContrabandItem"
+  ]
+ },
+ {
+  "identifier": "coffee_bean",
+  "atlas": "Items/items_hydroponic_plant",
+  "factory": "HydroponicDirectory.CoffeeBean",
+  "types": [
+   "HOUSEHOLD_GOOD",
+   "SEED"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitChemItem",
+   "InitSeedItem"
+  ]
+ },
+ {
+  "identifier": "dream_cap",
+  "atlas": "Items/items_hydroponic_plant",
+  "factory": "HydroponicDirectory.DreamCap",
+  "types": [
+   "CHEMICAL_SUPPLIES"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitContrabandItem",
+   "InitProduce"
+  ]
+ },
+ {
+  "identifier": "meal_cap",
+  "atlas": "Items/items_hydroponic_plant",
+  "factory": "HydroponicDirectory.MealCap",
+  "types": [
+   "FOOD"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitProduce"
+  ]
+ },
+ {
+  "identifier": "nightmare_cap",
+  "atlas": "Items/items_hydroponic_plant",
+  "factory": "HydroponicDirectory.NightmareCap",
+  "types": [
+   "CHEMICAL_SUPPLIES",
+   "POISON"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitContrabandItem",
+   "InitProduce"
+  ]
+ },
+ {
+  "identifier": "plant_analyser",
+  "atlas": "Items/items_hydroponic_plant",
+  "factory": "HydroponicDirectory.PlantAnalyser",
+  "types": [
+   "FARMING_SUPPLIES",
+   "TOOL"
+  ],
+  "tags": [
+   "CAN_USE_ON_NON_OWNED_TAG"
+  ],
+  "tagValues": {},
+  "value": 200,
+  "durability": null,
+  "helpers": [
+   "InitScanner"
+  ]
+ },
+ {
+  "identifier": "fillerweed_seed",
+  "atlas": "Items/items_hydroponic_plant",
+  "factory": "HydroponicDirectory.FillerweedSeed",
+  "types": [
+   "SEED"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitSeedItem"
+  ]
+ },
+ {
+  "identifier": "fillerweed",
+  "atlas": "Items/items_hydroponic_plant",
+  "factory": "HydroponicDirectory.Fillerweed",
+  "types": [
+   "FOOD"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitFoodItem",
+   "InitLeafy"
+  ]
+ },
+ {
+  "identifier": "hydroreed_seed",
+  "atlas": "Items/items_hydroponic_plant",
+  "factory": "HydroponicDirectory.HydroreedSeed",
+  "types": [
+   "SEED"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitSeedItem"
+  ]
+ },
+ {
+  "identifier": "dna_disk_black_empty",
+  "atlas": "Items/items_hydroponic_plant",
+  "factory": "HydroponicDirectory.PlantDnaDisk",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitDisk",
+   "InitTinyItem"
+  ]
+ },
+ {
+  "identifier": "bloomberry_seed",
+  "atlas": "Items/items_hydroponic_plant",
+  "factory": "HydroponicDirectory.BloomberrySeed",
+  "types": [
+   "SEED"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitSeedItem"
+  ]
+ },
+ {
+  "identifier": "metal_ingot",
+  "atlas": "Items/items_material",
+  "factory": "MaterialDirectory.MetalIngot",
+  "types": [
+   "MATERIAL"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": 50,
+  "durability": null,
+  "helpers": [
+   "InitSolidMetal",
+   "InitIngotItem"
+  ]
+ },
+ {
+  "identifier": "chemical1",
+  "atlas": "Items/items_material",
+  "factory": "MaterialDirectory.CommonChemicalSupplies",
+  "types": [
+   "CHEMICAL_SUPPLIES"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": 50,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "chemical2",
+  "atlas": "Items/items_material",
+  "factory": "MaterialDirectory.RestrictedChemicalSupplies",
+  "types": [
+   "CHEMICAL_SUPPLIES"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": 100,
+  "durability": null,
+  "helpers": [
+   "InitContrabandItem"
+  ]
+ },
+ {
+  "identifier": "med1",
+  "atlas": "Items/items_material",
+  "factory": "MaterialDirectory.CommonMedicalSupplies",
+  "types": [
+   "MEDICAL"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": 40,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "med2",
+  "atlas": "Items/items_material",
+  "factory": "MaterialDirectory.RestrictedMedicalSupplies",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "scrap_metal",
+  "atlas": "Items/items_material",
+  "factory": "MaterialDirectory.ScrapMetal",
+  "types": [
+   "MATERIAL",
+   "BASIC_MATERIAL",
+   "JUNK"
+  ],
+  "tags": [
+   "SCRAP_METAL"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitScrapMetal"
+  ]
+ },
+ {
+  "identifier": "scrap_metal_2",
+  "atlas": "Items/items_material",
+  "factory": "MaterialDirectory.Junk",
+  "types": [
+   "MATERIAL",
+   "BASIC_MATERIAL",
+   "JUNK"
+  ],
+  "tags": [
+   "SCRAP_METAL"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitScrapMetal"
+  ]
+ },
+ {
+  "identifier": "ore1",
+  "atlas": "Items/items_material",
+  "factory": "MaterialDirectory.MetalOre",
+  "types": [
+   "MATERIAL",
+   "BASIC_MATERIAL"
+  ],
+  "tags": [
+   "ORE_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitSolidMetal"
+  ]
+ },
+ {
+  "identifier": "ore2",
+  "atlas": "Items/items_material",
+  "factory": "MaterialDirectory.RareMetalOre",
+  "types": [
+   "MATERIAL"
+  ],
+  "tags": [
+   "ORE_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "electronic1",
+  "atlas": "Items/items_material",
+  "factory": "MaterialDirectory.Electronic",
+  "types": [
+   "MATERIAL"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "electronic2",
+  "atlas": "Items/items_material",
+  "factory": "MaterialDirectory.RareElectronic",
+  "types": [
+   "MATERIAL"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "electronic3",
+  "atlas": "Items/items_material",
+  "factory": "MaterialDirectory.HypertechElectronic",
+  "types": [
+   "MATERIAL"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "wire",
+  "atlas": "Items/items_construction",
+  "factory": "MaterialDirectory.Wire",
+  "types": [
+   "MATERIAL",
+   "BASIC_MATERIAL"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "printer_plastic",
+  "atlas": "Items/items_material",
+  "factory": "MaterialDirectory.PrinterPlastic",
+  "types": [
+   "MATERIAL",
+   "BASIC_MATERIAL"
+  ],
+  "tags": [
+   "PRINTER_MATERIAL_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "gun_part",
+  "atlas": "Items/items_material",
+  "factory": "MaterialDirectory.GunPart",
+  "types": [
+   "MATERIAL"
+  ],
+  "tags": [
+   "CAN_USE_ON_NON_OWNED_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitTinyMetal"
+  ]
+ },
+ {
+  "identifier": "nuclear_waste",
+  "atlas": "Items/items_material",
+  "factory": "MaterialDirectory.NuclearWaste",
+  "types": [],
+  "tags": [
+   "HAZARDOUS_WASTE_TAG",
+   "VENDING_BLACKLISTED_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitMetalMachine"
+  ]
+ },
+ {
+  "identifier": "flux_agent",
+  "atlas": "Items/items_material",
+  "factory": "MaterialDirectory.FluxAgent",
+  "types": [
+   "MATERIAL"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitSolidMetal"
+  ]
+ },
+ {
+  "identifier": "flux_agent_advanced",
+  "atlas": "Items/items_material",
+  "factory": "MaterialDirectory.AdvancedFluxAgent",
+  "types": [
+   "MATERIAL"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitSolidMetal"
+  ]
+ },
+ {
+  "identifier": "items_medical_15",
+  "atlas": "Items/items_medical",
+  "factory": "MedsItemDirectory.BirthControlPill",
+  "types": [
+   "MEDICAL"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPillItem",
+   "InitChemItem",
+   "InitChemicalProduct",
+   "InitChemicalIntentItem"
+  ]
+ },
+ {
+  "identifier": "pill1",
+  "atlas": "Items/items_medical",
+  "factory": "MedsItemDirectory.PhagimycinPill",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPillItem"
+  ]
+ },
+ {
+  "identifier": "pill2",
+  "atlas": "Items/items_medical",
+  "factory": "MedsItemDirectory.UnlicensedPhagimycinPill",
+  "types": [
+   "MEDICAL"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPillItem",
+   "InitContrabandItem"
+  ]
+ },
+ {
+  "identifier": "items_medical_12",
+  "atlas": "Items/items_medical",
+  "factory": "MedsItemDirectory.ZyanidePill",
+  "types": [
+   "POISON"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPillItem",
+   "InitContrabandItem",
+   "InitChemItem",
+   "InitChemicalProduct",
+   "InitChemicalIntentItem"
+  ]
+ },
+ {
+  "identifier": "oxycodone_pill",
+  "atlas": "Items/items_medical",
+  "factory": "MedsItemDirectory.FentanylPill",
+  "types": [
+   "MEDICAL",
+   "NARCOTIC",
+   "SUBSTANCE"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPillItem",
+   "InitContrabandItem",
+   "InitNarcotic",
+   "InitChemItem",
+   "InitChemicalProduct",
+   "InitChemicalIntentItem"
+  ]
+ },
+ {
+  "identifier": "zerochew",
+  "atlas": "Items/items_medical",
+  "factory": "MedsItemDirectory.ZeroChew",
+  "types": [
+   "FOOD",
+   "HOUSEHOLD_GOOD"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPillItem",
+   "InitTinyItem"
+  ]
+ },
+ {
+  "identifier": "smelling_salt",
+  "atlas": "Items/items_medical",
+  "factory": "MedsItemDirectory.SmellingSalt",
+  "types": [
+   "MEDICAL"
+  ],
+  "tags": [
+   "ITEM_MEDICAL_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitTinyItem",
+   "InitPillAudio"
+  ]
+ },
+ {
+  "identifier": "blood_bag",
+  "atlas": "Items/items_medical",
+  "factory": "MedsItemDirectory.BloodBag",
+  "types": [
+   "MEDICAL"
+  ],
+  "tags": [
+   "ITEM_MEDICAL_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitEdibleAudio"
+  ]
+ },
+ {
+  "identifier": "blue_blood_bag",
+  "atlas": "Items/items_medical",
+  "factory": "MedsItemDirectory.BlueBloodBag",
+  "types": [
+   "MEDICAL",
+   "LUXURY_ITEM"
+  ],
+  "tags": [
+   "ITEM_MEDICAL_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitEdibleAudio"
+  ]
+ },
+ {
+  "identifier": "dream_dust",
+  "atlas": "Items/items_medical",
+  "factory": "MedsItemDirectory.DreamDust",
+  "types": [
+   "MEDICAL",
+   "NARCOTIC",
+   "SUBSTANCE"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitContrabandItem",
+   "InitNarcotic",
+   "InitChemItem",
+   "InitChemicalProduct",
+   "InitChemicalIntentItem",
+   "InitGlassVial"
+  ]
+ },
+ {
+  "identifier": "nightmare_dust",
+  "atlas": "Items/items_medical",
+  "factory": "MedsItemDirectory.NightmareDust",
+  "types": [
+   "POISON"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitContrabandItem",
+   "InitGlassVial",
+   "InitChemItem",
+   "InitChemicalProduct",
+   "InitChemicalIntentItem"
+  ]
+ },
+ {
+  "identifier": "cafeine_pill",
+  "atlas": "Items/items_medical",
+  "factory": "MedsItemDirectory.CaffeinePill",
+  "types": [
+   "MEDICAL",
+   "HOUSEHOLD_GOOD"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitChemItem",
+   "InitChemicalProduct",
+   "InitChemicalIntentItem"
+  ]
+ },
+ {
+  "identifier": "salve",
+  "atlas": "Items/items_medical",
+  "factory": "MedsItemDirectory.HealingSalve",
+  "types": [
+   "MEDICAL"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "black_bottle",
+  "atlas": "Items/items_medical",
+  "factory": "MedsItemDirectory.RubbingAlcohol",
+  "types": [
+   "MEDICAL"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "bandage_small",
+  "atlas": "Items/items_medical",
+  "factory": "MedsItemDirectory.Bandage",
+  "types": [
+   "MEDICAL"
+  ],
+  "tags": [
+   "ITEM_MEDICAL_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitTextile"
+  ]
+ },
+ {
+  "identifier": "hemostatic_bandage_small",
+  "atlas": "Items/items_medical",
+  "factory": "MedsItemDirectory.HemostaticBandage",
+  "types": [
+   "MEDICAL"
+  ],
+  "tags": [
+   "ITEM_MEDICAL_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitTextile"
+  ]
+ },
+ {
+  "identifier": "topical_bandage_small",
+  "atlas": "Items/items_medical",
+  "factory": "MedsItemDirectory.TopicalBandage",
+  "types": [
+   "MEDICAL"
+  ],
+  "tags": [
+   "ITEM_MEDICAL_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitTextile"
+  ]
+ },
+ {
+  "identifier": "injector_purple_large",
+  "atlas": "Items/items_medical",
+  "factory": "MedsItemDirectory.ImmunivaxInjector",
+  "types": [
+   "MEDICAL"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "Init",
+   "InitInjectorAudio",
+   "InitImmunivax"
+  ]
+ },
+ {
+  "identifier": "injector_black",
+  "atlas": "Items/items_medical",
+  "factory": "MedsItemDirectory.SynaprestInjector",
+  "types": [
+   "MEDICAL",
+   "LUXURY_ITEM"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitInjectorAudio",
+   "InitSynaprest"
+  ]
+ },
+ {
+  "identifier": "chem_scanner",
+  "atlas": "Items/items_amenities",
+  "factory": "MedsItemDirectory.ChemScanner",
+  "types": [],
+  "tags": [
+   "CAN_USE_ON_NON_OWNED_TAG"
+  ],
+  "tagValues": {},
+  "value": 400,
+  "durability": null,
+  "helpers": [
+   "InitScanner"
+  ]
+ },
+ {
+  "identifier": "surgery_toolkit",
+  "atlas": "Items/items_tool",
+  "factory": "MedsItemDirectory.SurgeryToolset",
+  "types": [
+   "MEDICAL",
+   "MEDICAL_TOOL"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitEggSurgeryTool",
+   "InitAnimalSurgeryTool"
+  ]
+ },
+ {
+  "identifier": "glass_shard_shiv",
+  "atlas": "Items/items_weapons_melee",
+  "factory": "MeleeWeaponItemDirectory.CreateGlassShiv",
+  "types": [
+   "WEAPON",
+   "MELEE_WEAPON",
+   "MAKESHIFT",
+   "JUNK"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitBladeItem"
+  ]
+ },
+ {
+  "identifier": "skinning_knife",
+  "atlas": "Items/items_weapons_melee",
+  "factory": "MeleeWeaponItemDirectory.CreateSkinningKnife",
+  "types": [
+   "WEAPON",
+   "MELEE_WEAPON"
+  ],
+  "tags": [
+   "BUTCHER_TALLY_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitBladeItem"
+  ]
+ },
+ {
+  "identifier": "combat_knife_2",
+  "atlas": "Items/items_weapons_melee",
+  "factory": "MeleeWeaponItemDirectory.CreateCombatKnife",
+  "types": [
+   "WEAPON",
+   "MELEE_WEAPON"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitBladeItem"
+  ]
+ },
+ {
+  "identifier": "box_cutter",
+  "atlas": "Items/items_weapons_melee",
+  "factory": "MeleeWeaponItemDirectory.CreateBoxCutter",
+  "types": [
+   "WEAPON",
+   "MELEE_WEAPON",
+   "TOOL",
+   "HOUSEHOLD_GOOD"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitBladeItem"
+  ]
+ },
+ {
+  "identifier": "kitchen_cleaver",
+  "atlas": "Items/items_weapons_melee",
+  "factory": "MeleeWeaponItemDirectory.CreateKitchenCleaver",
+  "types": [
+   "WEAPON",
+   "MELEE_WEAPON",
+   "HOUSEHOLD_GOOD"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitBladeItem"
+  ]
+ },
+ {
+  "identifier": "kitchen_knife",
+  "atlas": "Items/items_weapons_melee",
+  "factory": "MeleeWeaponItemDirectory.CreateKitchenKnife",
+  "types": [
+   "WEAPON",
+   "MELEE_WEAPON",
+   "HOUSEHOLD_GOOD"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitBladeItem"
+  ]
+ },
+ {
+  "identifier": "combat_machete",
+  "atlas": "Items/items_weapons_melee",
+  "factory": "MeleeWeaponItemDirectory.CreateCombatMachete",
+  "types": [
+   "WEAPON",
+   "MELEE_WEAPON"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitBladeItem"
+  ]
+ },
+ {
+  "identifier": "crowbar",
+  "atlas": "Items/items_weapons_melee",
+  "factory": "MeleeWeaponItemDirectory.CreateCrowbarWeapon",
+  "types": [
+   "TOOL",
+   "WEAPON",
+   "MELEE_WEAPON"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitClearingTool"
+  ]
+ },
+ {
+  "identifier": "hatchet",
+  "atlas": "Items/items_weapons_melee",
+  "factory": "MeleeWeaponItemDirectory.CreateHatchetWeapon",
+  "types": [
+   "TOOL",
+   "WEAPON",
+   "MELEE_WEAPON"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitBladeItem",
+   "InitHatchetPlantRemoval"
+  ]
+ },
+ {
+  "identifier": "pipe",
+  "atlas": "Items/items_weapons_melee",
+  "factory": "MeleeWeaponItemDirectory.CreatePipeWeapon",
+  "types": [
+   "WEAPON",
+   "MELEE_WEAPON",
+   "MAKESHIFT",
+   "JUNK"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "stun_baton",
+  "atlas": "Items/items_weapons_melee",
+  "factory": "MeleeWeaponItemDirectory.StunBaton",
+  "types": [
+   "MELEE_WEAPON",
+   "WEAPON"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitContrabandItem"
+  ]
+ },
+ {
+  "identifier": "battery100",
+  "atlas": "Items/items_tool",
+  "factory": "MiscItemDirectory.EnergyCredit",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPowerSourceItem"
+  ]
+ },
+ {
+  "identifier": "battery_ext100",
+  "atlas": "Items/items_tool",
+  "factory": "MiscItemDirectory.EnergyCreditExtended",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPowerSourceItem"
+  ]
+ },
+ {
+  "identifier": "sbattery100",
+  "atlas": "Items/items_tool2",
+  "factory": "MiscItemDirectory.EnergyCreditBreeder",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPowerSourceItem",
+   "InitRecharge"
+  ]
+ },
+ {
+  "identifier": "battery_dis100",
+  "atlas": "Items/items_tool",
+  "factory": "MiscItemDirectory.DisposableBattery",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPowerSourceItem",
+   "InitDisposable"
+  ]
+ },
+ {
+  "identifier": "current_converter",
+  "atlas": "Items/items_tool2",
+  "factory": "MiscItemDirectory.CurrentConverter",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitCurrentConverter"
+  ]
+ },
+ {
+  "identifier": "battery_hyp",
+  "atlas": "Items/items_tool2",
+  "factory": "MiscItemDirectory.EnergyCreditHypertech",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitHypertechBattery"
+  ]
+ },
+ {
+  "identifier": "glass_shard",
+  "atlas": "Items/items_weapons_melee",
+  "factory": "MiscItemDirectory.GlassShard",
+  "types": [
+   "JUNK"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "intel_sec",
+  "atlas": "Items/items_misc",
+  "factory": "MiscItemDirectory.IntelSec",
+  "types": [
+   "DOCUMENT"
+  ],
+  "tags": [
+   "IMPORTANT_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "flashlight3",
+  "atlas": "Items/items_misc",
+  "factory": "MiscItemDirectory.Flashlight",
+  "types": [
+   "TOOL"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "newspaper",
+  "atlas": "Items/itematlas",
+  "factory": "MiscItemDirectory.Newspaper",
+  "types": [
+   "DOCUMENT"
+  ],
+  "tags": [
+   "DOCUMENT",
+   "IMPORTANT_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "tutorial_book",
+  "atlas": "Items/itematlas",
+  "factory": "MiscItemDirectory.TutorialBook",
+  "types": [
+   "DOCUMENT"
+  ],
+  "tags": [
+   "DOCUMENT",
+   "IMPORTANT_TAG",
+   "CONTAINER_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "tutorial_page",
+  "atlas": "Items/itematlas",
+  "factory": "MiscItemDirectory.TutorialPage",
+  "types": [
+   "DOCUMENT"
+  ],
+  "tags": [
+   "DOCUMENT",
+   "IMPORTANT_TAG",
+   "TUTORIAL_PAPER_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPaperGuide"
+  ]
+ },
+ {
+  "identifier": "guide0",
+  "atlas": "Items/items_misc",
+  "factory": "MiscItemDirectory.LotteryInfo",
+  "types": [
+   "DOCUMENT"
+  ],
+  "tags": [
+   "DOCUMENT",
+   "IMPORTANT_TAG",
+   "GUIDE_PAPER_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPaperGuide",
+   "InitPaperSheet"
+  ]
+ },
+ {
+  "identifier": "guide1",
+  "atlas": "Items/items_misc",
+  "factory": "MiscItemDirectory.CigaretteGuide",
+  "types": [
+   "DOCUMENT"
+  ],
+  "tags": [
+   "DOCUMENT",
+   "IMPORTANT_TAG",
+   "GUIDE_PAPER_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPaperGuide"
+  ]
+ },
+ {
+  "identifier": "manual5",
+  "atlas": "Items/items_misc",
+  "factory": "MiscItemDirectory.HandGuide",
+  "types": [
+   "DOCUMENT"
+  ],
+  "tags": [
+   "DOCUMENT",
+   "IMPORTANT_TAG",
+   "GUIDE_PAPER_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPaperGuide"
+  ]
+ },
+ {
+  "identifier": "manual1",
+  "atlas": "Items/items_misc",
+  "factory": "MiscItemDirectory.FuelGuide",
+  "types": [
+   "DOCUMENT"
+  ],
+  "tags": [
+   "DOCUMENT",
+   "IMPORTANT_TAG",
+   "GUIDE_PAPER_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPaperGuide"
+  ]
+ },
+ {
+  "identifier": "manual4",
+  "atlas": "Items/items_misc",
+  "factory": "MiscItemDirectory.RibwichGuide",
+  "types": [
+   "DOCUMENT"
+  ],
+  "tags": [
+   "DOCUMENT",
+   "IMPORTANT_TAG",
+   "GUIDE_PAPER_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPaperGuide"
+  ]
+ },
+ {
+  "identifier": "book1",
+  "atlas": "Items/items_misc",
+  "factory": "MiscItemDirectory.WaterGuide",
+  "types": [
+   "DOCUMENT"
+  ],
+  "tags": [
+   "DOCUMENT",
+   "IMPORTANT_TAG",
+   "GUIDE_PAPER_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitGuide"
+  ]
+ },
+ {
+  "identifier": "book3",
+  "atlas": "Items/items_misc",
+  "factory": "MiscItemDirectory.HydroponicGuide",
+  "types": [
+   "DOCUMENT"
+  ],
+  "tags": [
+   "DOCUMENT",
+   "IMPORTANT_TAG",
+   "GUIDE_PAPER_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitGuide"
+  ]
+ },
+ {
+  "identifier": "book2",
+  "atlas": "Items/items_misc",
+  "factory": "MiscItemDirectory.ChemistryGuide",
+  "types": [
+   "DOCUMENT"
+  ],
+  "tags": [
+   "DOCUMENT",
+   "IMPORTANT_TAG",
+   "GUIDE_PAPER_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitGuide"
+  ]
+ },
+ {
+  "identifier": "aug_id_guide",
+  "atlas": "Items/items_misc",
+  "factory": "MiscItemDirectory.AugIdGuide",
+  "types": [
+   "DOCUMENT"
+  ],
+  "tags": [
+   "DOCUMENT",
+   "IMPORTANT_TAG",
+   "GUIDE_PAPER_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "guide5",
+  "atlas": "Items/items_misc",
+  "factory": "MiscItemDirectory.InjectorGuide",
+  "types": [
+   "DOCUMENT"
+  ],
+  "tags": [
+   "DOCUMENT",
+   "IMPORTANT_TAG",
+   "GUIDE_PAPER_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPaperGuide"
+  ]
+ },
+ {
+  "identifier": "guide3",
+  "atlas": "Items/items_misc",
+  "factory": "MiscItemDirectory.StampGuide",
+  "types": [
+   "DOCUMENT"
+  ],
+  "tags": [
+   "DOCUMENT",
+   "IMPORTANT_TAG",
+   "GUIDE_PAPER_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPaperGuide"
+  ]
+ },
+ {
+  "identifier": "republic_logo_checker",
+  "atlas": "Items/items_misc",
+  "factory": "MiscItemDirectory.LogoChecker",
+  "types": [
+   "DOCUMENT"
+  ],
+  "tags": [
+   "DOCUMENT",
+   "IMPORTANT_TAG",
+   "GUIDE_PAPER_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "cigarette_color_guide",
+  "atlas": "Items/itematlas",
+  "factory": "MiscItemDirectory.CigaretteColor",
+  "types": [
+   "DOCUMENT"
+  ],
+  "tags": [
+   "DOCUMENT",
+   "IMPORTANT_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "deed",
+  "atlas": "Items/items_misc",
+  "factory": "MiscItemDirectory.MentorContract",
+  "types": [
+   "DOCUMENT"
+  ],
+  "tags": [
+   "DOCUMENT",
+   "IMPORTANT_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPaperGuide"
+  ]
+ },
+ {
+  "identifier": "slip",
+  "atlas": "Items/itematlas",
+  "factory": "MiscItemDirectory.ProcurementSlip",
+  "types": [
+   "DOCUMENT"
+  ],
+  "tags": [
+   "DOCUMENT"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "handnote",
+  "atlas": "Items/items_misc",
+  "factory": "MiscItemDirectory.Handnote",
+  "types": [
+   "DOCUMENT"
+  ],
+  "tags": [
+   "IMPORTANT_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "card_wild",
+  "atlas": "Items/items_misc",
+  "factory": "MiscItemDirectory.JoeWildCard",
+  "types": [
+   "DOCUMENT"
+  ],
+  "tags": [
+   "IMPORTANT_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitCartonCard"
+  ]
+ },
+ {
+  "identifier": "card_brewer",
+  "atlas": "Items/items_misc",
+  "factory": "MiscItemDirectory.CardBrewer",
+  "types": [
+   "DOCUMENT"
+  ],
+  "tags": [
+   "IMPORTANT_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitCartonCard"
+  ]
+ },
+ {
+  "identifier": "card_mining",
+  "atlas": "Items/items_misc",
+  "factory": "MiscItemDirectory.CardMining",
+  "types": [
+   "DOCUMENT"
+  ],
+  "tags": [
+   "IMPORTANT_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitCartonCard"
+  ]
+ },
+ {
+  "identifier": "card_pharma",
+  "atlas": "Items/items_misc",
+  "factory": "MiscItemDirectory.CardPharma",
+  "types": [
+   "DOCUMENT"
+  ],
+  "tags": [
+   "IMPORTANT_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitCartonCard"
+  ]
+ },
+ {
+  "identifier": "card_chem",
+  "atlas": "Items/items_misc",
+  "factory": "MiscItemDirectory.CardChem",
+  "types": [
+   "DOCUMENT"
+  ],
+  "tags": [
+   "IMPORTANT_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitCartonCard"
+  ]
+ },
+ {
+  "identifier": "card_rev",
+  "atlas": "Items/items_misc",
+  "factory": "MiscItemDirectory.CardRev",
+  "types": [
+   "DOCUMENT"
+  ],
+  "tags": [
+   "IMPORTANT_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitCartonCard"
+  ]
+ },
+ {
+  "identifier": "permit_gun_1",
+  "atlas": "Items/items_misc",
+  "factory": "MiscItemDirectory.GunPermit1",
+  "types": [
+   "DOCUMENT"
+  ],
+  "tags": [
+   "IMPORTANT_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPermitItem"
+  ]
+ },
+ {
+  "identifier": "permit_gun_2",
+  "atlas": "Items/items_misc",
+  "factory": "MiscItemDirectory.GunPermit2",
+  "types": [
+   "DOCUMENT"
+  ],
+  "tags": [
+   "IMPORTANT_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPermitItem"
+  ]
+ },
+ {
+  "identifier": "permit_gun_3",
+  "atlas": "Items/items_misc",
+  "factory": "MiscItemDirectory.GunPermit3",
+  "types": [
+   "DOCUMENT"
+  ],
+  "tags": [
+   "IMPORTANT_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPermitItem"
+  ]
+ },
+ {
+  "identifier": "sec_slip",
+  "atlas": "Items/items_misc",
+  "factory": "MiscItemDirectory.SecSlip",
+  "types": [
+   "DOCUMENT"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPaperSheet"
+  ]
+ },
+ {
+  "identifier": "paper_wanted",
+  "atlas": "Items/itematlas",
+  "factory": "MiscItemDirectory.WantedPaper",
+  "types": [
+   "DOCUMENT"
+  ],
+  "tags": [
+   "IMPORTANT_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPaperSheet"
+  ]
+ },
+ {
+  "identifier": "dossier_0",
+  "atlas": "Items/dossier",
+  "factory": "MiscItemDirectory.Dossier",
+  "types": [],
+  "tags": [
+   "IMPORTANT_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitContainerItemTagOnly",
+   "InitDossier"
+  ]
+ },
+ {
+  "identifier": "trashcan0",
+  "atlas": "Items/items_furniture",
+  "factory": "MiscItemDirectory.Trashcan",
+  "types": [],
+  "tags": [
+   "IMPORTANT_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitContainerItemTagOnly",
+   "InitTrashcan"
+  ]
+ },
+ {
+  "identifier": "drain",
+  "atlas": "Items/items_furniture",
+  "factory": "MiscItemDirectory.Drain",
+  "types": [],
+  "tags": [
+   "IMPORTANT_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "faucet",
+  "atlas": "Items/items_furniture",
+  "factory": "MiscItemDirectory.Faucet",
+  "types": [],
+  "tags": [
+   "IMPORTANT_TAG",
+   "IS_TOOLTIP_DISABLED_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "book4",
+  "atlas": "Items/items_misc",
+  "factory": "MiscItemDirectory.IngotGuide",
+  "types": [
+   "DOCUMENT"
+  ],
+  "tags": [
+   "IMPORTANT_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitBookItem",
+   "InitGuide"
+  ]
+ },
+ {
+  "identifier": "book5",
+  "atlas": "Items/items_misc",
+  "factory": "MiscItemDirectory.WineGuide",
+  "types": [
+   "DOCUMENT"
+  ],
+  "tags": [
+   "DOCUMENT",
+   "IMPORTANT_TAG",
+   "GUIDE_PAPER_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitGuide"
+  ]
+ },
+ {
+  "identifier": "sec_keycard",
+  "atlas": "Items/items_misc",
+  "factory": "MiscItemDirectory.SecKeycard",
+  "types": [
+   "ACCESS_CARD"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitContrabandItem",
+   "InitPlasticCard"
+  ]
+ },
+ {
+  "identifier": "sci_card",
+  "atlas": "Items/items_misc",
+  "factory": "MiscItemDirectory.SciKeycard",
+  "types": [
+   "ACCESS_CARD"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitContrabandItem",
+   "InitPlasticCard"
+  ]
+ },
+ {
+  "identifier": "command_keycard",
+  "atlas": "Items/items_misc",
+  "factory": "MiscItemDirectory.CommandKeycard",
+  "types": [
+   "ACCESS_CARD"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitContrabandItem",
+   "InitPlasticCard"
+  ]
+ },
+ {
+  "identifier": "med_card",
+  "atlas": "Items/items_misc",
+  "factory": "MiscItemDirectory.MedicalKeycard",
+  "types": [
+   "ACCESS_CARD"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitContrabandItem",
+   "InitPlasticCard"
+  ]
+ },
+ {
+  "identifier": "eng_card",
+  "atlas": "Items/items_misc",
+  "factory": "MiscItemDirectory.EngineerKeycard",
+  "types": [
+   "ACCESS_CARD"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitContrabandItem",
+   "InitPlasticCard"
+  ]
+ },
+ {
+  "identifier": "ser_card",
+  "atlas": "Items/items_misc",
+  "factory": "MiscItemDirectory.ServiceKeycard",
+  "types": [
+   "ACCESS_CARD"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitContrabandItem",
+   "InitPlasticCard"
+  ]
+ },
+ {
+  "identifier": "sup_card",
+  "atlas": "Items/items_misc",
+  "factory": "MiscItemDirectory.SupplyKeycard",
+  "types": [
+   "ACCESS_CARD"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitContrabandItem",
+   "InitPlasticCard"
+  ]
+ },
+ {
+  "identifier": "blank_card",
+  "atlas": "Items/items_misc",
+  "factory": "MiscItemDirectory.BlankKeycard",
+  "types": [
+   "ACCESS_CARD"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPlasticCard"
+  ]
+ },
+ {
+  "identifier": "canister_nerve",
+  "atlas": "Items/items_sec",
+  "factory": "MiscItemDirectory.CanisterMBS",
+  "types": [
+   "WEAPON"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitContrabandItem"
+  ]
+ },
+ {
+  "identifier": "food_stamp",
+  "atlas": "Items/items_misc",
+  "factory": "MiscItemDirectory.FoodStamp",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "Init"
+  ]
+ },
+ {
+  "identifier": "scav_medal",
+  "atlas": "Items/itematlas",
+  "factory": "MiscItemDirectory.ScavToken",
+  "types": [],
+  "tags": [
+   "IMPORTANT_TAG",
+   "SCAV_TOKEN_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "black_lamp",
+  "atlas": "Items/items_sign",
+  "factory": "MiscItemDirectory.BlackLamp",
+  "types": [],
+  "tags": [
+   "IMPORTANT_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitBlackLamp"
+  ]
+ },
+ {
+  "identifier": "postit",
+  "atlas": "Items/items_tool",
+  "factory": "MiscItemDirectory.Note",
+  "types": [
+   "DOCUMENT"
+  ],
+  "tags": [
+   "IMPORTANT_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "exchange_directive",
+  "atlas": "Items/items_misc",
+  "factory": "MiscItemDirectory.ExchangeDirective",
+  "types": [
+   "DOCUMENT"
+  ],
+  "tags": [
+   "IMPORTANT_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPaperSheet"
+  ]
+ },
+ {
+  "identifier": "ribwich",
+  "atlas": "Items/items_food",
+  "factory": "MiscItemDirectory.Ribwich",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitEdibleAudio",
+   "InitAppraisalItem"
+  ]
+ },
+ {
+  "identifier": "the_coin",
+  "atlas": "Items/items_misc",
+  "factory": "MiscItemDirectory.GamblersCoin",
+  "types": [],
+  "tags": [
+   "IMPORTANT_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitTinyMetal"
+  ]
+ },
+ {
+  "identifier": "scratch",
+  "atlas": "Items/items_misc",
+  "factory": "MiscItemDirectory.ScratcherTicket",
+  "types": [
+   "DOCUMENT"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitScratcherItem",
+   "InitPaperSheet"
+  ]
+ },
+ {
+  "identifier": "scratch_stack",
+  "atlas": "Items/items_misc",
+  "factory": "MiscItemDirectory.ScratcherTicketStack",
+  "types": [
+   "DOCUMENT"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "plasma_fuel_cell",
+  "atlas": "Items/items_ship",
+  "factory": "MiscItemDirectory.PlasmaFuel",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitAppraisalItem"
+  ]
+ },
+ {
+  "identifier": "hand_steel",
+  "atlas": "Items/items_inspectable",
+  "factory": "MiscItemDirectory.Hand",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitAppHandItem"
+  ]
+ },
+ {
+  "identifier": "bag",
+  "atlas": "Items/items_container",
+  "factory": "MiscItemDirectory.PlasticBag",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "aug_chip",
+  "atlas": "Items/items_module",
+  "factory": "MiscItemDirectory.AugChip",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "aug_scanner",
+  "atlas": "Items/items_tool",
+  "factory": "MiscItemDirectory.AugScanner",
+  "types": [],
+  "tags": [
+   "AUG_SCANNER_TAG",
+   "CONTAINER_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "module_white",
+  "atlas": "Items/items_module",
+  "factory": "ModuleDirectory.BlankModule",
+  "types": [
+   "MODULE"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitModuleItem"
+  ]
+ },
+ {
+  "identifier": "module_red",
+  "atlas": "Items/items_module",
+  "factory": "ModuleDirectory.SystemPerformanceModule",
+  "types": [
+   "MODULE"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitModuleItem"
+  ]
+ },
+ {
+  "identifier": "module_green",
+  "atlas": "Items/items_module",
+  "factory": "ModuleDirectory.SystemEfficiencyModule",
+  "types": [
+   "MODULE"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitModuleItem"
+  ]
+ },
+ {
+  "identifier": "module_yellow",
+  "atlas": "Items/items_module",
+  "factory": "ModuleDirectory.SystemQualityModule",
+  "types": [
+   "MODULE"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitModuleItem"
+  ]
+ },
+ {
+  "identifier": "module_red_2",
+  "atlas": "Items/items_module",
+  "factory": "ModuleDirectory.SystemOverclockModule",
+  "types": [
+   "MODULE"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitModuleItem"
+  ]
+ },
+ {
+  "identifier": "module_green_2",
+  "atlas": "Items/items_module",
+  "factory": "ModuleDirectory.SystemEcoModule",
+  "types": [
+   "MODULE"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitModuleItem"
+  ]
+ },
+ {
+  "identifier": "module_green_3",
+  "atlas": "Items/items_module",
+  "factory": "ModuleDirectory.SystemStreamliningModule",
+  "types": [
+   "MODULE"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitModuleItem"
+  ]
+ },
+ {
+  "identifier": "module_yellow_2",
+  "atlas": "Items/items_module",
+  "factory": "ModuleDirectory.SystemFinenessModule",
+  "types": [
+   "MODULE"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitModuleItem"
+  ]
+ },
+ {
+  "identifier": "module_ruined",
+  "atlas": "Items/items_module",
+  "factory": "ModuleDirectory.SystemRuinedModule",
+  "types": [
+   "MODULE"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitModuleItem"
+  ]
+ },
+ {
+  "identifier": "module_corrupt",
+  "atlas": "Items/items_module",
+  "factory": "ModuleDirectory.SystemCorruptModule",
+  "types": [
+   "MODULE"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitModuleItem"
+  ]
+ },
+ {
+  "identifier": "module_black_5",
+  "atlas": "Items/items_module",
+  "factory": "ModuleDirectory.SystemUncappedNeuralCoreModule",
+  "types": [
+   "MODULE"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitContrabandItem",
+   "InitModuleItem"
+  ]
+ },
+ {
+  "identifier": "module_black_4",
+  "atlas": "Items/items_module",
+  "factory": "ModuleDirectory.SystemcappedNeuralCoreModule",
+  "types": [
+   "MODULE"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitContrabandItem",
+   "InitModuleItem"
+  ]
+ },
+ {
+  "identifier": "module_blue_2",
+  "atlas": "Items/items_module",
+  "factory": "ModuleDirectory.EquipmentEfficiencyModule",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitModuleItem"
+  ]
+ },
+ {
+  "identifier": "cmd_module",
+  "atlas": "Items/items_tool",
+  "factory": "ModuleDirectory.CrypoModuleCmd",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitContrabandItem",
+   "InitProgressSourceItem",
+   "InitSmallModule"
+  ]
+ },
+ {
+  "identifier": "sec_module",
+  "atlas": "Items/items_tool",
+  "factory": "ModuleDirectory.CrypoModuleSec",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitContrabandItem",
+   "InitProgressSourceItem",
+   "InitSmallModule"
+  ]
+ },
+ {
+  "identifier": "med_module",
+  "atlas": "Items/items_tool",
+  "factory": "ModuleDirectory.CrypoModuleMed",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitContrabandItem",
+   "InitProgressSourceItem",
+   "InitSmallModule"
+  ]
+ },
+ {
+  "identifier": "eng_module",
+  "atlas": "Items/items_tool",
+  "factory": "ModuleDirectory.CrypoModuleEng",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitContrabandItem",
+   "InitProgressSourceItem",
+   "InitSmallModule"
+  ]
+ },
+ {
+  "identifier": "sup_module",
+  "atlas": "Items/items_tool",
+  "factory": "ModuleDirectory.CrypoModuleSup",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitContrabandItem",
+   "InitProgressSourceItem",
+   "InitSmallModule"
+  ]
+ },
+ {
+  "identifier": "ser_module",
+  "atlas": "Items/items_tool",
+  "factory": "ModuleDirectory.CrypoModuleSer",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitContrabandItem",
+   "InitProgressSourceItem",
+   "InitSmallModule"
+  ]
+ },
+ {
+  "identifier": "printer_chip_pistol",
+  "atlas": "Items/items_tool",
+  "factory": "ModuleDirectory.PrinterChipPistolDouble",
+  "types": [],
+  "tags": [
+   "PRINTER_CHIP_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitProgressSourceItem",
+   "InitSmallModule"
+  ]
+ },
+ {
+  "identifier": "printer_chip2",
+  "atlas": "Items/items_tool",
+  "factory": "ModuleDirectory.PrinterChipInternalSpringsImproved",
+  "types": [],
+  "tags": [
+   "PRINTER_CHIP_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitProgressSourceItem",
+   "InitSmallModule"
+  ]
+ },
+ {
+  "identifier": "printer_chip4",
+  "atlas": "Items/items_tool",
+  "factory": "ModuleDirectory.PrinterChipRDS",
+  "types": [],
+  "tags": [
+   "PRINTER_CHIP_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitProgressSourceItem",
+   "InitSmallModule"
+  ]
+ },
+ {
+  "identifier": "printer_chip3",
+  "atlas": "Items/items_tool",
+  "factory": "ModuleDirectory.PrinterChip22Mag",
+  "types": [],
+  "tags": [
+   "PRINTER_CHIP_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitProgressSourceItem",
+   "InitSmallModule"
+  ]
+ },
+ {
+  "identifier": "farm_module6",
+  "atlas": "Items/items_module",
+  "factory": "ModuleDirectory.FarmModuleSmuggler",
+  "types": [
+   "HYDROPONIC_MODULE"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitModuleItem"
+  ]
+ },
+ {
+  "identifier": "long_module1",
+  "atlas": "Items/items_module",
+  "factory": "ModuleDirectory.EvaporatorSolventRecovery",
+  "types": [
+   "EVAPORATOR_MODULE"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitModuleItem"
+  ]
+ },
+ {
+  "identifier": "printer_chip6",
+  "atlas": "Items/items_tool",
+  "factory": "ModuleDirectory.CreateMeleeChip",
+  "types": [],
+  "tags": [
+   "PRINTER_CHIP_TAG",
+   "PRINTER_MELEE_CHIP_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitProgressSourceItem",
+   "InitSmallModule"
+  ]
+ },
+ {
+  "identifier": "long_module2",
+  "atlas": "Items/items_module",
+  "factory": "ModuleDirectory.PrinterModuleMeleeBatch",
+  "types": [
+   "PRINTER_MODULE"
+  ],
+  "tags": [
+   "PRINTER_MELEE_BATCH_MODULE_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitModuleItem"
+  ]
+ },
+ {
+  "identifier": "long_module3",
+  "atlas": "Items/items_module",
+  "factory": "ModuleDirectory.PrinterModuleCNC",
+  "types": [
+   "PRINTER_MODULE"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitModuleItem"
+  ]
+ },
+ {
+  "identifier": "farm_module_l7",
+  "atlas": "Items/items_module",
+  "factory": "ModuleDirectory.AlarmModuleTransmitter",
+  "types": [
+   "ALARM_MODULE"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitModuleItem"
+  ]
+ },
+ {
+  "identifier": "farm_module_l8",
+  "atlas": "Items/items_module",
+  "factory": "ModuleDirectory.FurnaceModuleBlast",
+  "types": [
+   "MODULE"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitModuleItem"
+  ]
+ },
+ {
+  "identifier": "farm_module_l6",
+  "atlas": "Items/items_module",
+  "factory": "ModuleDirectory.FarmModuleHydroreedFilter",
+  "types": [
+   "HYDROPONIC_MODULE"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitModuleItem"
+  ]
+ },
+ {
+  "identifier": "farm_module_l5",
+  "atlas": "Items/items_module",
+  "factory": "ModuleDirectory.FarmModuleFillerweedProduction",
+  "types": [
+   "HYDROPONIC_MODULE"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitModuleItem"
+  ]
+ },
+ {
+  "identifier": "farm_module5",
+  "atlas": "Items/items_module",
+  "factory": "ModuleDirectory.FarmModuleDreamCapNightmare",
+  "types": [
+   "HYDROPONIC_MODULE"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitContrabandItem",
+   "InitModuleItem"
+  ]
+ },
+ {
+  "identifier": "farm_module_l4",
+  "atlas": "Items/items_module",
+  "factory": "ModuleDirectory.FarmModuleDreamCapNeutralizer",
+  "types": [
+   "HYDROPONIC_MODULE"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitModuleItem"
+  ]
+ },
+ {
+  "identifier": "farm_module_l2",
+  "atlas": "Items/items_module",
+  "factory": "ModuleDirectory.FarmModuleNutrifruit",
+  "types": [
+   "HYDROPONIC_MODULE"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitModuleItem"
+  ]
+ },
+ {
+  "identifier": "farm_module_l1",
+  "atlas": "Items/items_module",
+  "factory": "ModuleDirectory.FarmModuleKottonLoom",
+  "types": [
+   "HYDROPONIC_MODULE"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitModuleItem"
+  ]
+ },
+ {
+  "identifier": "module_extractor",
+  "atlas": "Items/items_module",
+  "factory": "ModuleDirectory.ModuleExtractor",
+  "types": [
+   "TOOL"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitSmallMachine",
+   "InitUseCountItem"
+  ]
+ },
+ {
+  "identifier": "module_extractor_adv",
+  "atlas": "Items/items_module",
+  "factory": "ModuleDirectory.ModuleExtractorAdvanced",
+  "types": [
+   "TOOL"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitSmallMachine"
+  ]
+ },
+ {
+  "identifier": "hydro_upgrade_kit",
+  "atlas": "Items/items_module",
+  "factory": "ModuleDirectory.ModuleBayExpansionKit",
+  "types": [
+   "TOOL"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitModule"
+  ]
+ },
+ {
+  "identifier": "chem_module",
+  "atlas": "Items/items_module",
+  "factory": "ModuleDirectory.ChemModule",
+  "types": [
+   "MODULE"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitModuleItem"
+  ]
+ },
+ {
+  "identifier": "node_s",
+  "atlas": "Items/items_module",
+  "factory": "ModuleDirectory.NodeSmall",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitNode"
+  ]
+ },
+ {
+  "identifier": "node_m",
+  "atlas": "Items/items_module",
+  "factory": "ModuleDirectory.NodeMedium",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitNode"
+  ]
+ },
+ {
+  "identifier": "storage_bay",
+  "atlas": "Items/items_ship",
+  "factory": "ShipSystemDirectory.MakeshiftStorageBay",
+  "types": [
+   "STORAGE",
+   "MAKESHIFT"
+  ],
+  "tags": [
+   "SYSTEM_TAG",
+   "SYSTEM_TAG_UTILITY"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitContainerItem"
+  ]
+ },
+ {
+  "identifier": "storage_bay_large",
+  "atlas": "Items/items_ship",
+  "factory": "ShipSystemDirectory.StorageBayLarge",
+  "types": [
+   "STORAGE"
+  ],
+  "tags": [
+   "SYSTEM_TAG",
+   "SYSTEM_TAG_UTILITY"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitContainerItem"
+  ]
+ },
+ {
+  "identifier": "storage_bay_gun",
+  "atlas": "Items/items_ship",
+  "factory": "ShipSystemDirectory.GunsmithStorageBay",
+  "types": [
+   "STORAGE"
+  ],
+  "tags": [
+   "SYSTEM_TAG",
+   "SYSTEM_TAG_UTILITY"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitContainerItem"
+  ]
+ },
+ {
+  "identifier": "storage_bay_chem",
+  "atlas": "Items/items_ship",
+  "factory": "ShipSystemDirectory.ChemistStorageBay",
+  "types": [
+   "STORAGE"
+  ],
+  "tags": [
+   "SYSTEM_TAG",
+   "SYSTEM_TAG_UTILITY"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitContainerItem"
+  ]
+ },
+ {
+  "identifier": "machine_bay0",
+  "atlas": "Items/items_tool2",
+  "factory": "ShipSystemDirectory.MachineBay",
+  "types": [
+   "STORAGE"
+  ],
+  "tags": [
+   "SYSTEM_TAG",
+   "SYSTEM_TAG_UTILITY"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitContainerItem"
+  ]
+ },
+ {
+  "identifier": "machine_bay_ext",
+  "atlas": "Items/items_tool2",
+  "factory": "ShipSystemDirectory.MachineBayExt",
+  "types": [
+   "STORAGE"
+  ],
+  "tags": [
+   "SYSTEM_TAG",
+   "SYSTEM_TAG_UTILITY"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitContainerItem"
+  ]
+ },
+ {
+  "identifier": "hypertech_bay",
+  "atlas": "Items/items_tool2",
+  "factory": "ShipSystemDirectory.HyperTechBay",
+  "types": [
+   "STORAGE"
+  ],
+  "tags": [
+   "SYSTEM_TAG",
+   "SYSTEM_TAG_UTILITY"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitContainerItem",
+   "InitTabNames"
+  ]
+ },
+ {
+  "identifier": "smuggler_bay",
+  "atlas": "Items/items_ship",
+  "factory": "ShipSystemDirectory.SmugglerBay",
+  "types": [
+   "STORAGE"
+  ],
+  "tags": [
+   "CONTAINER_TAG",
+   "ITEM_HIDDEN_TAG",
+   "SYSTEM_TAG",
+   "SYSTEM_TAG_UTILITY"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitSmugglerBay"
+  ]
+ },
+ {
+  "identifier": "smuggler_bay_large",
+  "atlas": "Items/items_ship",
+  "factory": "ShipSystemDirectory.SmugglerBayMod",
+  "types": [
+   "STORAGE"
+  ],
+  "tags": [
+   "CONTAINER_TAG",
+   "ITEM_HIDDEN_TAG",
+   "SYSTEM_TAG",
+   "SYSTEM_TAG_UTILITY"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitSmugglerBay"
+  ]
+ },
+ {
+  "identifier": "smuggler_bay_mini",
+  "atlas": "Items/items_ship",
+  "factory": "ShipSystemDirectory.MiniSmugglerBay",
+  "types": [
+   "STORAGE"
+  ],
+  "tags": [
+   "CONTAINER_TAG",
+   "ITEM_HIDDEN_TAG",
+   "SYSTEM_TAG",
+   "SYSTEM_TAG_UTILITY"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitSmugglerBay",
+   "InitSmallMachine"
+  ]
+ },
+ {
+  "identifier": "screwdriver_s",
+  "atlas": "Items/items_tool",
+  "factory": "ToolDirectory.CreateScrewdriver",
+  "types": [
+   "TOOL"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "toolbox_old",
+  "atlas": "Items/items_tool2",
+  "factory": "ToolDirectory.CreateToolbox",
+  "types": [
+   "STORAGE"
+  ],
+  "tags": [
+   "IMPORTANT_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitToolbox",
+   "InitSmallMachine"
+  ]
+ },
+ {
+  "identifier": "welder_s",
+  "atlas": "Items/items_tool",
+  "factory": "ToolDirectory.CreateWelder",
+  "types": [
+   "TOOL"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitClearingTool"
+  ]
+ },
+ {
+  "identifier": "wirecutter",
+  "atlas": "Items/items_tool",
+  "factory": "ToolDirectory.CreateWireCutter",
+  "types": [
+   "TOOL"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitClearingTool"
+  ]
+ },
+ {
+  "identifier": "spectral_analyser",
+  "atlas": "Items/items_tool",
+  "factory": "ToolDirectory.CreateXRayScanner",
+  "types": [
+   "TOOL"
+  ],
+  "tags": [
+   "CAN_USE_ON_NON_OWNED_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "labeler",
+  "atlas": "Items/items_tool",
+  "factory": "ToolDirectory.CreateLabeler",
+  "types": [],
+  "tags": [
+   "MAGNIFYING_GLASS",
+   "IMPORTANT_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitLabelerItem"
+  ]
+ },
+ {
+  "identifier": "labeler_blue",
+  "atlas": "Items/items_tool",
+  "factory": "ToolDirectory.CreateLabelerBlue",
+  "types": [],
+  "tags": [
+   "LABELER_BLUE",
+   "IMPORTANT_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "magnifier",
+  "atlas": "Items/items_tool",
+  "factory": "ToolDirectory.CreateMagnifier",
+  "types": [],
+  "tags": [
+   "IMPORTANT_TAG",
+   "MAGNIFYING_GLASS",
+   "CAN_USE_ON_NON_OWNED_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "material_sign",
+  "atlas": "Items/items_sign",
+  "factory": "ToolDirectory.CreateRuinedMachineSign",
+  "types": [],
+  "tags": [
+   "IMPORTANT_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitShowcaseSpecialItem"
+  ]
+ },
+ {
+  "identifier": "hiring_sign",
+  "atlas": "Items/items_sign",
+  "factory": "ToolDirectory.CreateExpeditionSign",
+  "types": [],
+  "tags": [
+   "IMPORTANT_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "gun_sign",
+  "atlas": "Items/items_sign",
+  "factory": "ToolDirectory.CreateFirearmSign",
+  "types": [],
+  "tags": [
+   "IMPORTANT_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitShowcaseSpecialItem"
+  ]
+ },
+ {
+  "identifier": "gun_sign2",
+  "atlas": "Items/items_sign",
+  "factory": "ToolDirectory.CreateHeavyFirearmSign",
+  "types": [],
+  "tags": [
+   "IMPORTANT_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitShowcaseSpecialItem"
+  ]
+ },
+ {
+  "identifier": "water_sign",
+  "atlas": "Items/items_sign",
+  "factory": "ToolDirectory.CreateWaterSign",
+  "types": [],
+  "tags": [
+   "IMPORTANT_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitShowcaseSpecialItem"
+  ]
+ },
+ {
+  "identifier": "food_sign",
+  "atlas": "Items/items_sign",
+  "factory": "ToolDirectory.CreateFoodSign",
+  "types": [],
+  "tags": [
+   "IMPORTANT_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitShowcaseSpecialItem"
+  ]
+ },
+ {
+  "identifier": "medical_sign",
+  "atlas": "Items/items_sign",
+  "factory": "ToolDirectory.CreateMedicalSign",
+  "types": [],
+  "tags": [
+   "IMPORTANT_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitShowcaseSpecialItem"
+  ]
+ },
+ {
+  "identifier": "household_sign",
+  "atlas": "Items/items_sign",
+  "factory": "ToolDirectory.CreateHouseholdSign",
+  "types": [],
+  "tags": [
+   "IMPORTANT_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitShowcaseSpecialItem"
+  ]
+ },
+ {
+  "identifier": "luxury_sign",
+  "atlas": "Items/items_sign",
+  "factory": "ToolDirectory.CreateLuxurySign",
+  "types": [],
+  "tags": [
+   "IMPORTANT_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitShowcaseSpecialItem"
+  ]
+ },
+ {
+  "identifier": "berry_sign",
+  "atlas": "Items/items_sign",
+  "factory": "ToolDirectory.CreateBerrySign",
+  "types": [],
+  "tags": [
+   "IMPORTANT_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "turbo_booster",
+  "atlas": "Items/items_tool",
+  "factory": "ToolDirectory.CreateTurboBooster",
+  "types": [
+   "TOOL"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPlasticMachinery"
+  ]
+ },
+ {
+  "identifier": "turbo_booster_adv",
+  "atlas": "Items/items_tool",
+  "factory": "ToolDirectory.CreateTurboBoosterAdv",
+  "types": [
+   "TOOL"
+  ],
+  "tags": [
+   "TURBO_BOOST_ADV"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPlasticMachinery"
+  ]
+ },
+ {
+  "identifier": "turbo_booster_hypertech",
+  "atlas": "Items/items_tool2",
+  "factory": "ToolDirectory.CreateTurboBoosterHypertech",
+  "types": [
+   "TOOL"
+  ],
+  "tags": [
+   "TURBO_BOOST_HYPERTECH"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPlasticMachinery"
+  ]
+ },
+ {
+  "identifier": "mind_reprogrammer",
+  "atlas": "Items/items_tool",
+  "factory": "ToolDirectory.CreateMindReprogrammer",
+  "types": [
+   "TOOL"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitMindReprogrammer",
+   "InitPlasticMachinery"
+  ]
+ },
+ {
+  "identifier": "keycard11",
+  "atlas": "Items/items_misc",
+  "factory": "KeyItemDirectory.PastelKeycard",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "keycard21",
+  "atlas": "Items/items_misc",
+  "factory": "KeyItemDirectory.PastelVIPKeycard",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "keycard14",
+  "atlas": "Items/items_misc",
+  "factory": "KeyItemDirectory.RepublicKeycard",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "keycard24",
+  "atlas": "Items/items_misc",
+  "factory": "KeyItemDirectory.RepublicVIPKeycard",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "light_dropship",
+  "atlas": "Items/items_ship",
+  "factory": "ShipItemDirectory.Ship",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "Background",
+  "atlas": "Ships/TransportMedical",
+  "factory": "ShipItemDirectory.CargoShip",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "coin",
+  "atlas": "Items/itematlas",
+  "factory": "TechnicianBackpackDirectory.Capacitor",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitComplexeModule"
+  ]
+ },
+ {
+  "identifier": "organ_transport_box",
+  "atlas": "Items/items_container",
+  "factory": "UnusedDirectory.OrganTransportContainer",
+  "types": [],
+  "tags": [
+   "ORGAN_TRANSPORT_CONTAINER_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitContainerItem"
+  ]
+ },
+ {
+  "identifier": "cardboard_box",
+  "atlas": "Items/itematlas",
+  "factory": "UnusedDirectory.CardboardBox",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "first_aid_box",
+  "atlas": "Items/items_medical",
+  "factory": "UnusedDirectory.FirstAidBox",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitContainerItem",
+   "InitCase"
+  ]
+ },
+ {
+  "identifier": "pill_bottle",
+  "atlas": "Items/items_medical",
+  "factory": "UnusedDirectory.PillBottle",
+  "types": [],
+  "tags": [
+   "ITEM_MEDICAL_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPillBottleAudio"
+  ]
+ },
+ {
+  "identifier": "bicarsole_pill_bottle",
+  "atlas": "Items/items_medical",
+  "factory": "UnusedDirectory.BicarsolePillBottle",
+  "types": [],
+  "tags": [
+   "ITEM_MEDICAL_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPillBottleAudio"
+  ]
+ },
+ {
+  "identifier": "ocutol_pill_bottle",
+  "atlas": "Items/items_medical",
+  "factory": "UnusedDirectory.OcutolPillBottle",
+  "types": [],
+  "tags": [
+   "ITEM_MEDICAL_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPillBottleAudio"
+  ]
+ },
+ {
+  "identifier": "fixalin_pill_bottle",
+  "atlas": "Items/items_medical",
+  "factory": "UnusedDirectory.FixalinPillBottle",
+  "types": [],
+  "tags": [
+   "ITEM_MEDICAL_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPillBottleAudio"
+  ]
+ },
+ {
+  "identifier": "pillbottle1",
+  "atlas": "Items/items_medical",
+  "factory": "UnusedDirectory.PhagimycinPillBottle",
+  "types": [],
+  "tags": [
+   "ITEM_MEDICAL_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPillBottleAudio"
+  ]
+ },
+ {
+  "identifier": "pillbottle2",
+  "atlas": "Items/items_medical",
+  "factory": "UnusedDirectory.UnlicensedPhagimycinPillBottle",
+  "types": [],
+  "tags": [
+   "ITEM_MEDICAL_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPillBottleAudio"
+  ]
+ },
+ {
+  "identifier": "oxycodone_pill_bottle",
+  "atlas": "Items/items_medical",
+  "factory": "UnusedDirectory.OxycodonePillBottle",
+  "types": [],
+  "tags": [
+   "ITEM_MEDICAL_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPillBottleAudio"
+  ]
+ },
+ {
+  "identifier": "bear_paw_box",
+  "atlas": "Items/items_food",
+  "factory": "UnusedDirectory.BearPawBox",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitContainerItem"
+  ]
+ },
+ {
+  "identifier": "lunch_box",
+  "atlas": "Items/items_container",
+  "factory": "UnusedDirectory.LunchBox",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitContainerItem"
+  ]
+ },
+ {
+  "identifier": "injector_pouch",
+  "atlas": "Items/items_container",
+  "factory": "UnusedDirectory.InjectorPouch",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPouchItem",
+   "InitContainerItemTagOnly",
+   "InitPouch"
+  ]
+ },
+ {
+  "identifier": "pouch_injector_large",
+  "atlas": "Items/items_container",
+  "factory": "UnusedDirectory.InjectorPouchLarge",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPouchItem",
+   "InitContainerItemTagOnly",
+   "InitPouch"
+  ]
+ },
+ {
+  "identifier": "pouch_injector_large_double",
+  "atlas": "Items/items_container",
+  "factory": "UnusedDirectory.InjectorPouchLargeDouble",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPouchItem",
+   "InitContainerItemTagOnly",
+   "InitPouch"
+  ]
+ },
+ {
+  "identifier": "pouch_medical",
+  "atlas": "Items/items_container",
+  "factory": "UnusedDirectory.FirstAidPouch",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPouchItem",
+   "InitContainerItem",
+   "InitPouch"
+  ]
+ },
+ {
+  "identifier": "pouch_general",
+  "atlas": "Items/items_container",
+  "factory": "UnusedDirectory.PouchGeneral",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPouchItem",
+   "InitContainerItem",
+   "InitPouch"
+  ]
+ },
+ {
+  "identifier": "pouch_general_large",
+  "atlas": "Items/items_container",
+  "factory": "UnusedDirectory.PouchGeneralLarge",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPouchItem",
+   "InitContainerItem",
+   "InitPouch"
+  ]
+ },
+ {
+  "identifier": "pouch_hydration",
+  "atlas": "Items/items_container",
+  "factory": "UnusedDirectory.PouchHydration",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPouchItem",
+   "InitPouch",
+   "InitLiquidContainerItem"
+  ]
+ },
+ {
+  "identifier": "mentor_contract",
+  "atlas": "Items/itematlas",
+  "factory": "UnusedDirectory.LoanContract",
+  "types": [
+   "DOCUMENT"
+  ],
+  "tags": [
+   "DOCUMENT",
+   "IMPORTANT_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "lockpicks",
+  "atlas": "Items/items_misc",
+  "factory": "UnusedDirectory.Lockpicks",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitKey"
+  ]
+ },
+ {
+  "identifier": "exotic_matter_cell",
+  "atlas": "Items/itematlas",
+  "factory": "UnusedDirectory.ExoticFuel",
+  "types": [],
+  "tags": [
+   "EXOTIC_FUEL_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "box_nail",
+  "atlas": "Items/items_material",
+  "factory": "UnusedDirectory.BoxNail",
+  "types": [
+   "MATERIAL"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "trash_pile",
+  "atlas": "Items/itematlas",
+  "factory": "UnusedDirectory.TrashPile",
+  "types": [],
+  "tags": [
+   "CONTAINER_TAG",
+   "IMPORTANT_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitUseCountItem"
+  ]
+ },
+ {
+  "identifier": "wrench_orange",
+  "atlas": "Items/items_construction",
+  "factory": "UnusedDirectory.Wrench",
+  "types": [
+   "TOOL",
+   "WEAPON",
+   "MELEE_WEAPON"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "steel_sheet_rough",
+  "atlas": "Items/items_construction",
+  "factory": "UnusedDirectory.SheetSteel",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "simple_backpack_modular",
+  "atlas": "Items/items_backpack2",
+  "factory": "UnusedDirectory.BackpackSmallModular",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitBackpack",
+   "InitModularBackpack",
+   "InitBackpackItem"
+  ]
+ },
+ {
+  "identifier": "simple_backpack_modular_medium",
+  "atlas": "Items/items_backpack2",
+  "factory": "UnusedDirectory.BackpackMediumModular",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitBackpack",
+   "InitModularBackpack",
+   "InitBackpackItem"
+  ]
+ },
+ {
+  "identifier": "simple_backpack_modular_large",
+  "atlas": "Items/items_backpack2",
+  "factory": "UnusedDirectory.BackpackLargeModular",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitBackpack",
+   "InitModularBackpack",
+   "InitBackpackItem"
+  ]
+ },
+ {
+  "identifier": "molotov_cocktail",
+  "atlas": "Items/itematlas",
+  "factory": "UnusedDirectory.MolotovCocktail",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitGrenade"
+  ]
+ },
+ {
+  "identifier": "safe",
+  "atlas": "Items/items_furniture",
+  "factory": "UnusedDirectory.Safe",
+  "types": [],
+  "tags": [
+   "SAFE_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitContainerItem"
+  ]
+ },
+ {
+  "identifier": "large_storage_bay",
+  "atlas": "Items/items_ship",
+  "factory": "UnusedDirectory.LargeStorageBay",
+  "types": [],
+  "tags": [
+   "SYSTEM_TAG_UTILITY"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitContainerItemTagOnly"
+  ]
+ },
+ {
+  "identifier": "aloe_vera",
+  "atlas": "Items/items_hydroponic_plant",
+  "factory": "UnusedDirectory.AloeVera",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitSeedItem"
+  ]
+ },
+ {
+  "identifier": "mirage_generator",
+  "atlas": "Items/itematlas",
+  "factory": "UnusedDirectory.MirageGenerator",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitEquipment"
+  ]
+ },
+ {
+  "identifier": "frag",
+  "atlas": "Items/itematlas",
+  "factory": "UnusedDirectory.AntiqueGrenade",
+  "types": [
+   "WEAPON",
+   "MUNITION"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitGrenade",
+   "InitContrabandItem"
+  ]
+ },
+ {
+  "identifier": "small_incendiary",
+  "atlas": "Items/itematlas",
+  "factory": "UnusedDirectory.IncendiaryGrenade",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitGrenade"
+  ]
+ },
+ {
+  "identifier": "sec_card",
+  "atlas": "Items/itematlas",
+  "factory": "UnusedDirectory.SecCard",
+  "types": [
+   "DOCUMENT"
+  ],
+  "tags": [
+   "IMPORTANT_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "visual_book",
+  "atlas": "Items/itematlas",
+  "factory": "UnusedDirectory.VisualInspectionBook",
+  "types": [
+   "DOCUMENT"
+  ],
+  "tags": [
+   "DOCUMENT",
+   "IMPORTANT_TAG",
+   "CONTAINER_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "organ_heart",
+  "atlas": "Items/items_organ",
+  "factory": "UnusedDirectory.CreateHeart",
+  "types": [
+   "ORGAN"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitHeart"
+  ]
+ },
+ {
+  "identifier": "organ_lung_left",
+  "atlas": "Items/items_organ",
+  "factory": "UnusedDirectory.CreateLung",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitLung"
+  ]
+ },
+ {
+  "identifier": "organ_kidney_left",
+  "atlas": "Items/items_organ",
+  "factory": "UnusedDirectory.CreateKidney",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitKidney"
+  ]
+ },
+ {
+  "identifier": "organ_liver",
+  "atlas": "Items/items_organ",
+  "factory": "UnusedDirectory.CreateLiver",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitLiver"
+  ]
+ },
+ {
+  "identifier": "revolver_long",
+  "atlas": "Items/items_sec",
+  "factory": "UnusedDirectory.CreateRevolverLong",
+  "types": [
+   "WEAPON",
+   "FIREARM"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": 200,
+  "durability": null,
+  "helpers": [
+   "InitContrabandItem"
+  ]
+ },
+ {
+  "identifier": "revolver_short",
+  "atlas": "Items/items_sec",
+  "factory": "UnusedDirectory.CreateRevolverShort",
+  "types": [
+   "WEAPON",
+   "FIREARM"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": 180,
+  "durability": null,
+  "helpers": [
+   "InitContrabandItem"
+  ]
+ },
+ {
+  "identifier": "revolver_short_tac",
+  "atlas": "Items/items_sec",
+  "factory": "UnusedDirectory.CreateRevolverShortTactical",
+  "types": [
+   "WEAPON",
+   "FIREARM",
+   "MIDLINE"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": 230,
+  "durability": null,
+  "helpers": [
+   "InitPistol",
+   "InitGun",
+   "InitContrabandItem"
+  ]
+ },
+ {
+  "identifier": "ammo_box",
+  "atlas": "Items/items_sec",
+  "factory": "UnusedDirectory.AmmoBox",
+  "types": [],
+  "tags": [
+   "AMMO_BOX_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "codebook",
+  "atlas": "Items/itematlas",
+  "factory": "UnusedDirectory.CodeBook",
+  "types": [
+   "DOCUMENT"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "hemostatic_agent",
+  "atlas": "Items/items_medical",
+  "factory": "UnusedDirectory.AloeVeraGel",
+  "types": [],
+  "tags": [
+   "ITEM_MEDICAL_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitUseCountItem"
+  ]
+ },
+ {
+  "identifier": "water_test1",
+  "atlas": "Items/water_container",
+  "factory": "UnusedDirectory.TestWater",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "heavy_handmade_pistol_s",
+  "atlas": "Items/items_sec",
+  "factory": "UnusedDirectory.CreateHeavyHandmadePistolSuppressed",
+  "types": [
+   "WEAPON",
+   "FIREARM",
+   "LOWTECH"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": 225,
+  "durability": null,
+  "helpers": [
+   "InitGun",
+   "InitContrabandItem"
+  ]
+ },
+ {
+  "identifier": "titan_armor",
+  "atlas": "Items/items_armor",
+  "factory": "UnusedDirectory.ArmorTitan10",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitArmorItem",
+   "InitArmour"
+  ]
+ },
+ {
+  "identifier": "titan_armor10l",
+  "atlas": "Items/items_armor",
+  "factory": "UnusedDirectory.ArmorTitan10L",
+  "types": [
+   "ARMOR"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitArmour"
+  ]
+ },
+ {
+  "identifier": "titan_armor10h",
+  "atlas": "Items/items_armor",
+  "factory": "UnusedDirectory.ArmorTitan10H",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitArmorItem",
+   "InitArmour"
+  ]
+ },
+ {
+  "identifier": "titan_armor10s",
+  "atlas": "Items/items_armor",
+  "factory": "UnusedDirectory.ArmorTitan10S",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitArmorItem",
+   "InitArmour"
+  ]
+ },
+ {
+  "identifier": "titan_armor9",
+  "atlas": "Items/items_armor",
+  "factory": "UnusedDirectory.ArmorTitan9",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitArmorItem",
+   "InitArmour"
+  ]
+ },
+ {
+  "identifier": "box_tea_bag",
+  "atlas": "Items/items_amenities",
+  "factory": "UnusedDirectory.BoxTeaBag",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "cig_black",
+  "atlas": "Items/items_amenities",
+  "factory": "UnusedDirectory.PacketCigaretteBlack",
+  "types": [],
+  "tags": [
+   "CIGARETTE_TAG"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "soap",
+  "atlas": "Items/items_amenities",
+  "factory": "UnusedDirectory.Soap",
+  "types": [
+   "HOUSEHOLD_GOOD"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "nutrifruit_crate",
+  "atlas": "Items/items_hydroponic_plant",
+  "factory": "UnusedDirectory.NutrifruitCrate",
+  "types": [
+   "FOOD"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitWeight",
+   "InitFreshFood",
+   "InitPackagedAudio"
+  ]
+ },
+ {
+  "identifier": "nutrifruit_packaged",
+  "atlas": "Items/items_packaged_food",
+  "factory": "UnusedDirectory.NutrifruitPackaged",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPackagedAudio"
+  ]
+ },
+ {
+  "identifier": "m16_receiver",
+  "atlas": "Items/items_weapons_ranged_antique",
+  "factory": "UnusedDirectory.CreateM16Receiver",
+  "types": [],
+  "tags": [
+   "m16"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "mp9_receiver",
+  "atlas": "Items/items_weapons_ranged_antique",
+  "factory": "UnusedDirectory.CreateMP9Receiver",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitSMG"
+  ]
+ },
+ {
+  "identifier": "ump_receiver",
+  "atlas": "Items/items_weapons_ranged_antique",
+  "factory": "UnusedDirectory.CreateUMPReceiver",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitUMP"
+  ]
+ },
+ {
+  "identifier": "magnum_revolver",
+  "atlas": "Items/items_weapons_ranged_antique",
+  "factory": "UnusedDirectory.CreateMagnumReceiver",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "glock_receiver2",
+  "atlas": "Items/items_weapons_ranged_antique",
+  "factory": "UnusedDirectory.CreateGlockReceiver2",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPistol"
+  ]
+ },
+ {
+  "identifier": "shotgun_stock",
+  "atlas": "Items/itematlas",
+  "factory": "UnusedDirectory.CreateShotgunStock",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "shotgun_grip",
+  "atlas": "Items/itematlas",
+  "factory": "UnusedDirectory.CreateShotgunGrip",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "items_medical_11",
+  "atlas": "Items/items_medical",
+  "factory": "UnusedDirectory.BicarsolePill",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPillItem"
+  ]
+ },
+ {
+  "identifier": "items_medical_10",
+  "atlas": "Items/items_medical",
+  "factory": "UnusedDirectory.OcutolPill",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPillItem"
+  ]
+ },
+ {
+  "identifier": "energy_credit_counterfeit",
+  "atlas": "Items/itematlas",
+  "factory": "UnusedDirectory.EnergyCreditCounterfeit",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPowerSourceItem"
+  ]
+ },
+ {
+  "identifier": "wall",
+  "atlas": "Items/connections",
+  "factory": "UnusedDirectory.Wall",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitSalvagableItem"
+  ]
+ },
+ {
+  "identifier": "stripped_wall",
+  "atlas": "Items/connections",
+  "factory": "UnusedDirectory.WallStripped",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "wall_mold",
+  "atlas": "Items/connections",
+  "factory": "UnusedDirectory.WallMold",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "intel_blue",
+  "atlas": "Items/items_misc",
+  "factory": "UnusedDirectory.IntelItem",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "intel_tan",
+  "atlas": "Items/items_misc",
+  "factory": "UnusedDirectory.IntelSpawner",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "nav_system",
+  "atlas": "Items/items_ship",
+  "factory": "UnusedDirectory.NavigationSystem",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitNavigationSystem"
+  ]
+ },
+ {
+  "identifier": "engine",
+  "atlas": "Items/items_ship",
+  "factory": "UnusedDirectory.PropulsionSystem",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPropulsionSystem"
+  ]
+ },
+ {
+  "identifier": "hydroponic_system",
+  "atlas": "Items/items_ship",
+  "factory": "UnusedDirectory.HydroponicSystem",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitHydroponicSystem"
+  ]
+ },
+ {
+  "identifier": "armor_conditioner_system",
+  "atlas": "Items/items_ship",
+  "factory": "UnusedDirectory.ArmorConditionerSystem",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitArmorConditionerSystem"
+  ]
+ },
+ {
+  "identifier": "bioprinter_system",
+  "atlas": "Items/items_ship",
+  "factory": "UnusedDirectory.BioPrinterSystem",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitBioPrinterSystem"
+  ]
+ },
+ {
+  "identifier": "water_recycler_full",
+  "atlas": "Items/items_ship",
+  "factory": "UnusedDirectory.WaterRecyclerSystem",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitWaterRecyclerSystem"
+  ]
+ },
+ {
+  "identifier": "medical_system",
+  "atlas": "Items/items_ship",
+  "factory": "UnusedDirectory.AutonomousMedicalSystem",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitAutonomousMedicalSystem"
+  ]
+ },
+ {
+  "identifier": "makeshift_hull",
+  "atlas": "Items/items_ship",
+  "factory": "UnusedDirectory.MakeShiftHullSystem",
+  "types": [],
+  "tags": [
+   "SYSTEM_TAG_HULL"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitMakeshiftHull"
+  ]
+ },
+ {
+  "identifier": "civilian_hull",
+  "atlas": "Items/items_ship",
+  "factory": "UnusedDirectory.CivilianHullSystem",
+  "types": [],
+  "tags": [
+   "SYSTEM_TAG_HULL"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitCivilianHull"
+  ]
+ },
+ {
+  "identifier": "heavy_duty_hull",
+  "atlas": "Items/items_ship",
+  "factory": "UnusedDirectory.HeavyDutyHullSystem",
+  "types": [],
+  "tags": [
+   "SYSTEM_TAG_HULL"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitHeavyDutyHull"
+  ]
+ },
+ {
+  "identifier": "armored_hull",
+  "atlas": "Items/items_ship",
+  "factory": "UnusedDirectory.ArmoredHullSystem",
+  "types": [],
+  "tags": [
+   "SYSTEM_TAG_HULL"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitArmoredHull"
+  ]
+ },
+ {
+  "identifier": "mining_system",
+  "atlas": "Items/items_ship",
+  "factory": "UnusedDirectory.MiningDrillSystem",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitMiningDrillSystem"
+  ]
+ },
+ {
+  "identifier": "salvage_system",
+  "atlas": "Items/items_ship",
+  "factory": "UnusedDirectory.SalvageGantrySystem",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitSalvageGantrySystem"
+  ]
+ },
+ {
+  "identifier": "meat_culture_machine",
+  "atlas": "Items/items_machine",
+  "factory": "UnusedDirectory.CreateCraftingTable",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitCraftingTable"
+  ]
+ },
+ {
+  "identifier": "industrial_fridge",
+  "atlas": "Items/items_machine",
+  "factory": "UnusedDirectory.CreateIndustrialFridge",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "automatic_meat_processor",
+  "atlas": "Items/items_machine",
+  "factory": "UnusedDirectory.AutomaticMeatProcessor",
+  "types": [],
+  "tags": [
+   "manufacture"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "recycler",
+  "atlas": "Items/items_machine",
+  "factory": "UnusedDirectory.CreateRecycler",
+  "types": [],
+  "tags": [
+   "manufacture"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitMachinery"
+  ]
+ },
+ {
+  "identifier": "armor_conditionner",
+  "atlas": "Items/items_machine",
+  "factory": "UnusedDirectory.CreateArmorConditioner",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitMachinery"
+  ]
+ },
+ {
+  "identifier": "speaker",
+  "atlas": "Items/items_machine",
+  "factory": "UnusedDirectory.CreateSpeaker",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitMachinery"
+  ]
+ },
+ {
+  "identifier": "battery_hub",
+  "atlas": "Items/items_machine",
+  "factory": "UnusedDirectory.CreateBatteryHub",
+  "types": [],
+  "tags": [
+   "SYSTEM_TAG_POWER"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitPowerSourceFourniture"
+  ]
+ },
+ {
+  "identifier": "power_analyser",
+  "atlas": "Items/items_machine",
+  "factory": "UnusedDirectory.CreatePowerAnalyser",
+  "types": [],
+  "tags": [
+   "power_analyser"
+  ],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "yeast",
+  "atlas": "Items/items_winemaking",
+  "factory": "WineDirectory.WineYeast",
+  "types": [
+   "HOUSEHOLD_GOOD"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitYeast"
+  ]
+ },
+ {
+  "identifier": "superyeast",
+  "atlas": "Items/items_winemaking",
+  "factory": "WineDirectory.WineSuperYeast",
+  "types": [
+   "HOUSEHOLD_GOOD"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitYeast"
+  ]
+ },
+ {
+  "identifier": "illegal_yeast",
+  "atlas": "Items/items_winemaking",
+  "factory": "WineDirectory.WineYeastRed",
+  "types": [
+   "HOUSEHOLD_GOOD"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitIllegalYeast",
+   "InitContrabandItem"
+  ]
+ },
+ {
+  "identifier": "yeast_gen",
+  "atlas": "Items/items_winemaking",
+  "factory": "WineDirectory.YeastBioreactor",
+  "types": [
+   "HOUSEHOLD_GOOD"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitInfiniteYeast"
+  ]
+ },
+ {
+  "identifier": "fermentation_airlock",
+  "atlas": "Items/items_winemaking",
+  "factory": "WineDirectory.WineAirlock",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": []
+ },
+ {
+  "identifier": "wine_bottle",
+  "atlas": "Items/items_winemaking",
+  "factory": "WineDirectory.WineBottle",
+  "types": [],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitWineBottle",
+   "InitGlass"
+  ]
+ },
+ {
+  "identifier": "wine_berry",
+  "atlas": "Items/items_winemaking",
+  "factory": "WineDirectory.WineBerry",
+  "types": [
+   "FOOD"
+  ],
+  "tags": [],
+  "tagValues": {},
+  "value": null,
+  "durability": null,
+  "helpers": [
+   "InitBerry",
+   "InitFoodItem",
+   "InitProduce",
+   "InitInspectableItem"
+  ]
+ }
+]

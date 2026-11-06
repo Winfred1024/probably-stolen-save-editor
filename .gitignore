@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# 从你自己的存档里生成的数据（体积大、含个人存档内容，不入库）
+item_catalog.json
+presets.json
+
+# 工具自己的备份/临时文件
+_editor_backups/
+*.tmp
+*.bak
+~$*
+
+# 开发期一次性脚本
+_*.py
+_*.cs
+_*.exe
+_*.txt
+
+# 编辑器
+.vs/
+.vscode/
+.idea/
